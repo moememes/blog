@@ -1,35 +1,1458 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <link>{{ site.url }}</link>
+    <title></title>
+    <link>https://blog.memes.moe</link>
     <description>
-      {% if site.description %}{{ site.description | xml_escape }}{% endif %}
+      An in-depth exploration of modern memetics and internet culture
     </description>
-    {% for post in site.posts %}
-        {% unless post.link %}
+    
+        
             <item>
-                <title>{{ post.title | xml_escape }}</title>
-                <link>{{ site.url }}{{ post.url }}</link>
+                <title>AI and White Collar Work</title>
+                <link>https://blog.memes.moe/posts/10-07-2026/ai-and-white-collar-work.html</link>
                 <content:encoded>
                     <![CDATA[
-                    {{ post.content }}
+                    <p>OpenAI recently released a ton of math problems that they spent, on average, three hours each solving with one of their latest (obviously unreleased) models. These are problems that humans have been unable to make progress on, or whose solutions they thought could not be improved upon, for decades. For instance, subquadratic 3SUM—while the gains are tiny, improving on what people thought was an unimprovable lower bound is extremely impressive. It’s on the order of voodoo magic, as 3SUM intuitively seems unsolvable in subquadratic time. OpenAI claims that they spent under three hours per problem, and that seems about right.</p>
+
+<p>And academia is not reacting well. Imagine you’re a PhD student working on these problems, one of the brightest minds in the world. You’ve spent years trying to solve a problem, and you learn that an AI model took just three hours to one-shot it and surpass all the progress you’ve made on it. You learn that not only were you on the wrong track, but you had previously been on the right track and deviated from the correct path. Soul-crushing, really.</p>
+
+<p>Which is why the math community is so strongly against it. While some of the broader math community’s concerns have merit (see Terence Tao’s concern that there’s too much math to consume), its reaction has largely been one of protectionism. Thousands of researchers, professors, and academics are concerned that their fields of research are being rendered useless and that their life’s work is meaningless. It’s understandable! You’ve spent years of your life toiling away at numbers and letters, graphs and equations! It’s frustrating.</p>
+
+<p>But progress is progress! You cannot stop progress. And policing it is futile. This is the world you live in and the world that you will continue to experience. And it’s a good thing: who knows what future innovations a more efficient multiplication method could lead to? Suppose one day we discover a significantly more efficient algorithm for something that’s widely adopted. Think of how much energy we would save every time that routine runs anywhere in the world.</p>
+
+<p>It’s really about jobs. Academics are concerned that they are losing their jobs, and they should be. But they should not mask that concern by treating the field of mathematics like some kind of hobby. If we are using public funding and other research grants to pay academics to discover things for the good of the public, we should expect some kind of return on that funding. We are not paying them to dilly-dally and indulge their own egos. We are paying them to make discoveries that benefit us all.</p>
+
+<p>This pattern of AI replacing white-collar work is all too common. First, it came for the software engineers, as software engineers are paid very well in today’s industry. The cost of developing some crappy internal tool has essentially dropped to zero, when it used to cost a company a few junior software engineers’ salaries (which were still quite high). Now it’s coming for academics, because academics are also paid very well. And it makes sense! It’s the highest ROI you can get; automating a software engineer’s work or a professor’s work saves much more money than automating a barista’s.</p>
+
+<p>There’s a disconnect between the kinds of jobs most people think will be AI’d away first and those that actually will be. The usual concern is that we’ll replace artists, Uber drivers, and truck drivers. But why do that? Self-driving cars, despite the progress we have made, are still in their infancy. And even if they do replace human drivers, is the token cost worth it? As of now, maybe not, but certainly in the future. But why deal with the real world, which has all sorts of obstacles popping up in the road, when we can deal in the abstract, in the realm of words or tokens, and automate away the high-paying jobs first?</p>
+
+<p>But there’s no sympathy for white-collar jobs. Nobody cares if some rich software engineer gets laid off (unless it’s a game developer, in which case their whining on Twitter somehow gets amplified and treated differently from that of the thousands working on Microsoft Excel). They make $200k a year. Who cares? They’re fine. There’s nobody to really go to bat for them. And academics—what do the pesky nerds in the math department really do? Sure, people will fight to preserve jobs researching some endangered fish in the Nevada desert, but nobody cares about math. It’s boring nerd shit.</p>
+
+<p>The real way to prevent yourself from being automated away is either to be on top of the AI (sell the AI and its product) or to be on the bottom, doing something that is not worth AI’ing away. Plumbing is one example; you cannot easily AI away plumbing because it requires hardware, and you are also dealing with unpredictable customers who don’t really know what they want. You can automate everything else away, but plumbing is something you would have to do manually. You can create better tools for plumbers, and perhaps in the future we will have robots, but in the end, that root will need to be cut away with an auger. It’s a much harder problem than theorizing about 3SUM.</p>
+
+<p>I don’t think this is a bad thing. Plumbers can make good money. In the future, they may make more money. And that’s good! They deserve it.</p>
+
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">{{ post.url }}</guid>
+                <guid isPermaLink="false">/posts/10-07-2026/ai-and-white-collar-work.html</guid>
                 <description>
-                    {% if post.summary %}
-                    {{ post.summary | xml_escape }}
-                    {% endif %}
+                    
+                    It&apos;s really about the paycheck
+                    
                 </description>
-                <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-                <author>{{ site.author }}</author>
+                <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
             </item>
-        {% endunless %}
-    {% endfor %}
+        
+    
+        
+            <item>
+                <title>You (Yes, You) Can Save Anime</title>
+                <link>https://blog.memes.moe/posts/10-05-2026/anime-piracy-is-solved.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Pirating anime is essentially a solved problem and has been for a few years now.</p>
+
+<p>Anime has always been pretty rife with piracy. From the LD and tape days to boutique fansub groups to rips of official simulcasts today, people have always pirated anime. But only in the last 5–10 years have we essentially solved piracy. That is to say, the amount we can pirate (of course, way more than we can actually consume) cannot keep up with the amount of storage a home user can accumulate.</p>
+
+<p>A while ago, I ran the numbers using MAL’s API and got about 29k anime, counting movies, OVAs, series, etc. as separate entries. I think this is about as accurate as we can get. More importantly, it probably comes close to accounting for the media that’s actually available. There’s another project, <a href="https://github.com/manami-project/anime-offline-database">anime-offline-database</a>, that aggregates multiple online databases and comes up with a total of about 41k entries. Keep in mind that this includes many movies, OVAs, and shorts, but let’s assume the worst case: around 530k distinct episodes of anime. I think this is a gross overestimate, and the real number is maybe 50% of that, but let’s use this number as an upper bound.</p>
+
+<p>Currently, reasonable anime releases are about 1.3 GB per episode. It’s been this way for a few years—maybe ten or fifteen. Interestingly enough, thanks to codec improvements, file sizes have remained unchanged or are often smaller nowadays with HEVC. Older shows were often encoded and available in much smaller sizes because their resolution was much lower. For our exercise, we can assume an average file size of 1 GB per episode for easy math.</p>
+
+<p>Thus, the total amount of anime that has been created in the world so far can be stored in 530 TB in the worst case. Realistically, collecting anything close to this would not be possible, given that not all anime is still available. I also don’t think those estimates are anywhere near correct. I’ll explain later.</p>
+
+<p>530 TB of storage alone would cost around $5.3k at $10 per TB (using storage prices from before the AI shortage).</p>
+
+<p>That sounds expensive, but this is a worst case. It is entirely reasonable for a normal consumer to pay that amount of money to have a repository of all anime. It’s something a normal person could have sitting in a single computer case next to their desk. Folks pay thousands of dollars every few years for graphics cards that depreciate faster than this. You do not need a data center or some fancy tape storage. You can have it on spinning disks. You don’t need some enterprise-level storage solution.</p>
+
+<p>But let’s calculate the future of anime: there are roughly 150–250 new anime series every year. Add in a few movies and maybe OVAs, and, using back-of-the-napkin math, we have perhaps 350 cours of anime each year. That would be roughly 5–6 TB of anime per year. Since file sizes and episode runtimes have remained roughly stable, I don’t expect this to increase much. I think adding 6 TB a year to your storage is fairly reasonable. You can buy a 20–24 TB external backup drive and be set for about four years. Over the next 40 years, you’ll acquire a total of 200–240 TB of new anime under these assumptions, which is really not much.</p>
+
+<p>Our current release cycle is also why I believe the estimate of 530 TB is incorrect. If the next 40 years of anime would require only 240 TB of storage, I think acquiring all previous anime in a reasonable format would require around that much or even less. Either way, it’s only a couple of thousand dollars.</p>
+
+<p>For an upper bound of $10k, you can build an appliance right now that would store all anime from now until you die (or at least until I die). Realistically, I would estimate that it would cost only half that, given that so much anime is lost media, but we’re talking theoretically.</p>
+
+<p>I think that this phenomenon would apply to other media too. Books especially are probably solved, but I’m not knowledgeable about movies or TV shows. It might be a few years before a layperson can, with a little bit of money, theoretically fit every piece of visual or audio media on their home PC.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/10-05-2026/anime-piracy-is-solved.html</guid>
+                <description>
+                    
+                    There&apos;s no reason to delete anything anymore
+                    
+                </description>
+                <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>The Purpose of Work is its Product</title>
+                <link>https://blog.memes.moe/posts/09-26-2026/purpose-of-work.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Watching the real-time industrialization of their nation, piloted by companies like Xiaomi and BYD, from a nation of dirt floors and bicycles to Roombas and electric cars within two decades gives a different perspective from the West, where potable water is expected and Flint, Michigan, is ridiculed. There was a recent news article with Chinese scientists featured as national heroes, contrasted with America, where our heroes are the products of the entertainment industry.</p>
+
+<p>Within Chinese youth, the sentiment may be different, but there must be some sort of understanding within older Chinese millennials that engineers, scientists, and business leaders who emphasize technological growth (which is inherently anti-labor in the immediate short term) lead to products that better the lives of ordinary people. I don’t think that understanding is as prevalent in the current era amongst Western cultures that have taken things such as roads, running water, and household products for granted.</p>
+
+<p>There is some sort of societal memory that producing things is still Good, and that a better way to produce Things with less Labor is to be celebrated. Because it is a nation where Things were, until recently, and still are for some non-insignificant portion of the population, not available compared to the West. The job loss is not as significant as the existence and affordability of a vacuum cleaner instead of a broom.</p>
+
+<p>But I think we have largely forgotten about that here aside from a few industries. Household products required to survive comfortably are largely a solved problem. Most people in the US have access to a fridge, reliable transportation, running potable water, showers, a toilet, vacuum cleaners, and other things that we take for granted.</p>
+
+<p>Thus, what’s the incentive for producing?</p>
+
+<p>We now espouse the meaning of our work, of our jobs, of our personal satisfaction with what we do. We do things because we want to, or we need the money, or we think it makes the world a better place. We place the needs of the workers first and foremost without thinking of the product. Of course, this is a generalization, as the CEOs and the leaders of firms think about the product first and foremost, but the general worker does not. The salary system represents the intentional detachment between the worker and the product, amortizing the risk amongst the employees. Sure, we may have layoffs and stock options and tips and other performance-based incentives, but largely the individual employee’s incentives do not match.</p>
+
+<p>Thus, when AI comes along and threatens those things, we as individual employees of the firm are concerned. Technology has always been, economically, a way to produce more given the constraints of labor and capital, and for white-collar workers, AI looks to be a way to accelerate that graph asymptotically whilst demand remains constrained. Not a great place for the labor side of the equation, to be quite fair.</p>
+
+<p>In the West - and within younger Chinese who were born with cell phones in their hands - I’m sure that this production seems to be at the expense of the Worker. However, to older folks across the pond, it can only be seen as something extraordinary.</p>
+
+<p>You grow up sweeping dirt floors and now your Xiaomi automatically maps out your room and cleans it. You grow up not having access to knowledge and now you can ask your phone anything and it can give you the answer. It’s nothing but a miracle. No wonder you embrace AI. Of course you would want agents; work is an act of suffering. Yet you ask your American friend and he or she loves his work and is afraid AI will replace him. You are afraid that your job may be in danger too, but you order your bowl of noodles for 14 yuan, it arrives in 20 minutes from a self-driving, AI-powered delivery robot, and you remember how you no longer need to boil your water and knead your dough from scratch.</p>
+
+<p>I think we in the West need to remember that the product of our work is important too. Societies that still have vivid cultural memories of material scarcity are more likely to view automation as an opportunity for abundance rather than job preservation.</p>
+
+<p>We are competing on a global level. If BYD makes better cars than Ford, they will eat our lunch no matter how many barriers we put up. And those barriers are Not Good for us. If BYD makes a better car, why should we put up with an inferior Ford?</p>
+
+<p>I personally believe there are opportunities to innovate. There are always more features you can put in a car, and we should accelerate our production at the expense of labor. There are things that we can do in 2026 that would’ve been unthinkable in 2025, and reaping the fruits of that progress will be beneficial for our nation in the long run. A decade ago, coal miners were told to learn to code, but now, in the abundance of both cheap solar and cheap code, there must be something greater that coders, designers, engineers, artists, bean counters, and other people who work their minds can do that would lead to a society with more abundance.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-26-2026/purpose-of-work.html</guid>
+                <description>
+                    
+                    I think we&apos;ve forgotten about that, but China hasn&apos;t, yet, maybe. I think that&apos;s why they&apos;re more likely to embrace AI.
+                    
+                </description>
+                <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Just ask for things!</title>
+                <link>https://blog.memes.moe/posts/07-06-2026/just-ask.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>A while ago, I saw <a href="https://nohello.net/en/">this page</a> emphasizing the importance of bundling your intent with your message for professional communication. Please give it a read—it’s a very important concept for the workplace. I deeply dislike it when people simply say “Hi” without including the context of their message.</p>
+
+<p>Recently, I’ve started applying this concept to personal messages too. Asynchronous communication is hard, round-trip times are long, and text is an extremely lossy medium for communicating intent if you aren’t used to it. If you message me, please let me know the intent of your communication in the first sentence instead of being wishy-washy.</p>
+
+<p>If you want something from me but think it might be too much, just ask! Perhaps it’s the result of working in a professional environment, but I’m much happier being asked directly for something than having someone socially engineer me into thinking it was my own idea to ask if they needed it. Time is valuable.</p>
+
+<p>Also, provide as much information as possible! Please don’t make people ask you for details. Put everything into one message as concisely as you can.</p>
+
+<blockquote>
+  <p>“Hi! Can you help me with this?”<br />
+“Can I get some details?”<br />
+“Oh yeah… X, Y, Z.”<br />
+“Yes/No”</p>
+</blockquote>
+
+<p>vs.</p>
+
+<blockquote>
+  <p>“Hi! Can you help me do X on Y at Z?”<br />
+“Yes/No”</p>
+</blockquote>
+
+<p>Don’t waste time! Your life will be much better if you do this, and people will appreciate it.</p>
+
+<p>Thank you for your attention to this matter.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/07-06-2026/just-ask.html</guid>
+                <description>
+                    
+                    Please be concise!
+                    
+                </description>
+                <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Koi Suru Fortune Cookie by AKB48</title>
+                <link>https://blog.memes.moe/posts/06-29-2026/koi-suru-fortune-cookie.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>In August of 2013, popular idol group AKB48 released their 32nd single, “Koi Suru Fortune Cookie” (恋するフォーチュンクッキー, <em>Koisuru Fōchunkukkī</em>; “The Fall-in-Love Fortune Cookie”), or better known as <em>Fortune Cookie in Love</em> (I don’t think I’ve ever heard it called “The Fall-in-Love Fortune Cookie”). Over the next few years and into the next decade, it would become one of their more popular songs, even being remixed into some of the jingles for the Tokyo Metro. The music video would soon be released, a gargantuan performance involving thousands of extras and taking place in front of Hakata Station. The joyous, upbeat aspect of <em>Koi Suru Fortune Cookie</em> attracted the eyes of millions and gradually became one of their best-known songs alongside <em>Heavy Rotation</em>. You’ve probably heard it somewhere if you’re a weeaboo.</p>
+
+<p>I’ve heard it hundreds of times!</p>
+
+<p>One of the quirks of <em>Koi Suru Fortune Cookie</em> is the opener. They had a black DJ introduce them (who the heck was this guy??), which was not uncommon for many pop songs at the time. However, the lyrics have always stuck with me.</p>
+
+<p>The guy goes:</p>
+
+<p>おい日本のみんな、聞こえてるか？</p>
+
+<p>What’s up Japan? Can you hear me?</p>
+
+<p>最近日本は元気無いって？</p>
+
+<p>Is life gettin’ you down?</p>
+
+<p>カネがない、仕事がキビシイ、</p>
+
+<p>No money, no job,</p>
+
+<p>イマイチなニュースばっかりだもんな！</p>
+
+<p>Too much bad news?</p>
+
+<p>でもクヨクヨしててもしょうがないだろ？</p>
+
+<p>Well, there’s no reason to be down.</p>
+
+<p>いまは立ち上がって踊るのさ！</p>
+
+<p>It’s time to get up!</p>
+
+<p>AKB48から、オマエのテンションアガりまくる、最高にホットな新曲だ！</p>
+
+<p>We have a hot new song from AKB48 to make you feel good!</p>
+
+<p>「恋するフォーチュンクッキー」！！！</p>
+
+<p>“Koisuru Fortune Cookie.”</p>
+
+<p>踊れ、ニッポンよ</p>
+
+<p>So dance, Japan!</p>
+
+<p>踊り狂っちまえよ！</p>
+
+<p>Crazy!</p>
+
+<p>To a native English speaker, it sounds like stage banter. The gentleman is asking how you’re doing! Are you feeling down? Does your life suck? Well, AKB48 is going to cheer you up! Let’s get ready for AKB48! It’s just another introduction meant to hype you up, to set the stage for a cool performance. And that’s what I always assumed they were talking about, but I recently took it upon myself to go through the JP subs, which read a bit differently. I’m not sure if the translation was first written in JP or EN, but the JP subs are more directed.</p>
+
+<p>Instead of addressing <em>you</em>, the audience, they address <em>you</em>, a citizen of Japan. Or more specifically, the people of Japan. The second line isn’t asking <em>you</em> as a viewer how down you are, but is more specifically asking about the national spirit of Japan itself. The rest of the introduction becomes a plea to the people and nation, with the context being societal problems of no money, no jobs, and terrible news, and how AKB is here to save the day.</p>
+
+<p>While the EN listener thinks it’s a general “how’s it going, audience?” the JP reader gets a different picture; the scene is bleak, the nation is in stagnation, but here we are. The music video itself, with its thousands of people in the streets of Hakata, further exposes this concept; the people of Japan are dancing as the fortune cookie of love is going to change the national outlook.</p>
+
+<p>And I don’t think this is a coincidence. What sounds like a catchy pop song to Westerners is a call to changing the fortune of the country.</p>
+
+<p>To understand the background, we have to start in the ’70s and ’80s. A brief history lesson:</p>
+
+<p>In 1985, the Plaza Accord was signed, which intentionally devalued the dollar and led to rapid yen appreciation. The Bank of Japan implemented monetary easing, leading to cheap credit. Over the next few years, speculation was rampant, and land and home values soared. The stock market could only go up! The national sentiment was great! It led to a culmination in ‘89, where the Nikkei peaked at an all-time high… for the next 35 years. Over the next year, the BoJ would drastically increase interest rates, tanking the Nikkei to about half of its value. The optimism of the bubble economy ground to a halt. Banks failed, hiring stopped, and the economy slowed down. The first lost decade (it was really only half a decade, kind of) kicked Japan in the balls. Worse yet, in ‘95, the national sentiment became grimmer after an earthquake and the Tokyo Sarin Gas Attack. The Nikkei would not return to its 1989 level until 2024.</p>
+
+<p>However, in ‘96, temporary relief seemed to appear on the horizon. Due to banks stabilizing and increased exports, a brief moment of optimism shone through the economic downturn. Then, 1997? Thailand happened, and the Asian Financial Crisis, exacerbated by IMF shenanigans. Contagion quickly hit all the Asian economies, and Japan was not spared. A part two of the lost decade had hit the nation. Banks started to fail, the government basically bailed them out, and in ‘99, the BoJ basically gave up and basically made money free to borrow.</p>
+
+<p>The ’90s were not a great time. One of my other theories for why there was so much grimdark post-apocalypse slop anime produced during this time was the post-bubble economy and the negative vision of the future.</p>
+
+<p>In the ’00s, hope was rising. The economy started growing again, albeit slowly. Demand for Japanese machinery and electronics gave hope to the market. Sony and other Japanese tech giants seemed like they were doing well. And then, wham, ‘08 happened.</p>
+
+<p>There’s a lot of politicking going around at this point, but GDP was in the dumps. It was so over. But in December 2012, a man named Shinzo Abe got elected.</p>
+
+<p>Abe had a new vision: Abenomics. It consisted of three parts: aggressive monetary policy (really, easing), flexible fiscal policy (spend money on bridges to nowhere), and structural reform (putting women and old people to work). And somehow, it kind of worked in the end. However, Abenomics emphasized one pivotal point: Japan would not only have to revamp its economics, but also have to reimagine the optimism that would allow it to achieve its economic goals. It wasn’t enough to just set policy; Abenomics had to set expectations.</p>
+
+<p>The people would have to believe in and look toward a better future. If people believed that the future would be better, they would manifest it. It’s Japan’s self-fulfilling prophecy, a national version of Keynesian expectations. More specifically, the cycle went like this: higher expectations for the economy -&gt; more spending -&gt; more growth -&gt; higher expectations for the economy -&gt; … It wasn’t enough that the economy should change, but rather that the behaviors of individuals in the nation should change.</p>
+
+<p>The music video presents the AKBs in front of a giant parade, dancing in front of Hakata Station with thousands of onlookers. They’re not on some grand stage; they’re alongside ordinary people. The smiles are contagious. The music video pans to footage of regular people. Schoolchildren, office workers, families, commuters, tourists, police officers, companies, and government agencies all start to smile and dance. The message is to smile and join them! TV crews are in the background, everyone jiving and smiling, broadcasting the message throughout the nation.</p>
+
+<p>“To capture good luck, put a smile on your face.”</p>
+
+<p>“Make the fortune of tomorrow better than today.”</p>
+
+<p>Following 30 years of continuously being kicked down by foreign currency manipulation, contagion, natural disasters, and economic depressions, Japan finally had a chance to reinvent itself. <em>Koi Suru Fortune Cookie</em> asked the audience to “break the shell” for something even “God wouldn’t know!” and for us not to take it negatively. It’s practically a song of national revitalization, spurring the listeners to do what? Generate economic value by smiling more.</p>
+
+<p>Abenomics:</p>
+
+<p>Optimism
+-&gt; Spending
+-&gt; Investment
+-&gt; Growth
+-&gt; More optimism</p>
+
+<p>Koi Suru Fortune Cookie:</p>
+
+<p>Smile
+-&gt; Capture good luck
+-&gt; Others join in
+-&gt; Tomorrow becomes better
+-&gt; More smiles</p>
+
+<p>I have listened to this song hundreds of times without realizing what it was really about. It’s not just a love song! It’s more than a graduation song! It’s something greater - a call to a better vision of the future by the citizens of the nation. I think that’s partially why it’s so popular: it’s a song that manages to capture the sentiments and zeitgeist of the era. It’s no wonder this became one of their best-known songs! It spurred a huge trend and became a nationwide dance phenomenon for a reason. Smile, for things will get better! Understanding the song from that perspective makes me appreciate it just a bit more.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/06-29-2026/koi-suru-fortune-cookie.html</guid>
+                <description>
+                    
+                    It&apos;s really about generating shareholder value
+                    
+                </description>
+                <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Beef Wellington &amp; The UK</title>
+                <link>https://blog.memes.moe/posts/06-09-2026/beef-wellington.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>The Beef Wellington is a dish that’s notoriously difficult to make. It consists of a beef tenderloin in the center, a mushroom layer on top of that (sometimes with prosciutto or other intermediate layers as well), and puff pastry on the outside. The difficulty in cooking the dish lies in the heat control and guesswork required to cook the protein to exactly medium-rare while also not overcooking the puff pastry and burning it.</p>
+
+<p>Out of all the recipes out there, hardly any is worse than Beef Wellington. I can’t think of any other dish where the individual components, cooked with minimal effort, taste better than their combination.</p>
+
+<p>It’s a pointless dish. A beef tenderloin tastes amazing by itself with just a little bit of seasoning. Mushrooms, sautéed, baked, cooked with just a tiny bit of oil, or even grilled, taste amazing. And puff pastry is great on its own as well.</p>
+
+<p>Put together, they don’t add anything to each other. Beef Wellington consists of completely non-complementary foods smashed together and presented on a plate. Yet we are supposed to pretend that it’s some kind of high-class dish, a masterpiece! It’s terrible!</p>
+
+<p>In a way, Beef Wellington reflects the national ethos of Britain itself: tradition in the face of things that are simply better. It’s the culinary equivalent of the UK’s relationship with air conditioning. Presented with the straightforward option of installing a window unit, they instead explain that their homes are “built to keep the heat in,” buy three fans, open every window in the house, and convince themselves that sweating indoors is a cultural virtue rather than a solved engineering problem.</p>
+
+<p>Anyways, the act of cooking Beef Wellington should be considered a form of food terrorism.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/06-09-2026/beef-wellington.html</guid>
+                <description>
+                    
+                    Beef Wellington kinda sucks and people who cook and enjoy it should feel bad
+                    
+                </description>
+                <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Microblogging in 2026</title>
+                <link>https://blog.memes.moe/posts/06-08-2026/microblogging-2026.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Almost two decades ago, I read an article that really was a foundational work in how I based my role in the internet ecosystem. It’s always stuck with me, and I truly do think about this all the time and it’s something that I always keep in mind when posting.</p>
+
+<p><a href="https://shii.bibanon.org/shii.org/knows/Microblogging.html">This article</a> was written by a certain internet citizen, which was really a response to cultural anthropologist Grant McCracken’s post about microblogging being a form of phatic communication.</p>
+
+<p>McCracken still maintains his blog, but his original article was wiped off the web; you can still find it <a href="https://web.archive.org/web/20070823071126/https://cultureby.com/trilogy/2007/07/how-social-netw.html">here</a>:</p>
+
+<p>At the time, Facebook was peaking and Twitter had just begun to pop off. Those were some of the main microblogging sites back in the day, and as the monetization machine hadn’t made it truly profitable to gain retweets and shares in the attention economy, posting for the sake of microblogging was still well and alive. Don’t think the Twitter post attention economy is like that anymore, unfortunately.</p>
+
+<p>Nowadays, Instagram stories has become the dominant form of phatic communication that most normal people here use. Instagram has stopped being a form of Flickr and instead has become Twitter, and Twitter has become some sort of perpetual attention-consensus-building marketing machine, the closest thing to a spiritual Roman forum that any other internet forum could be. There is much more signal than noise than on pre-Elon Twitter, for sure, for the majority of users. Too much signal in fact, making it more of a macroblogging platform than a microblogging platform and driving true microblogging - a bit of signal (a keep-alive!) and a ton of noise - elsewhere.</p>
+
+<p>A feature on IG Stories is the ephemeral nature of posts, where the context window is what happened in the last 24 hours. I think that really moves it into the realm where a story is a cry for acknowledgment of existence, a true microblogging platform. Personally, I think it’s preferable to use it as such rather than as a marketing machine.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/06-08-2026/microblogging-2026.html</guid>
+                <description>
+                    
+                    Revisiting the State of Microblogging in 2026
+                    
+                </description>
+                <pubDate>Mon, 08 Jun 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Why JP Ticketing Systems Are So Hard</title>
+                <link>https://blog.memes.moe/posts/05-19-2026/jp-ticketing-systems.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <h2 id="tldr">TL;DR</h2>
+
+<p>No, you don’t actually provide that much value to the Japanese music industry when you go to a concert in Japan. You don’t actually spend that much money. They don’t want you, not because they’re racist or xenophobic, but because to their music industry, you do the equivalent of ordering a $2 taco at a Mexican restaurant and filling up on chips. You simply aren’t built into the current monetization of the JP music market. They don’t make money through ticket sales, they make money through you buying CDs and merch.</p>
+
+<h2 id="cd-and-physical-goods-sales">CD and Physical Goods Sales</h2>
+
+<p>To understand the music industry in Japan, we must start our story in Sacramento. More specifically, a small record shop in Sacramento called Tower Records. Russell Solomon founded Tower Records in the 1960s, and it eventually grew to become the dominant record and music store in the USA. The Tower in the Tower Theater was named after the nearby Tower Theatre (still the oldest continuously running “Picture Palace”), which was named after the Tower Bridge, a historic Sacramento bridge linking the floodplains of West Sacramento to Old Sacramento and the capitol proper.</p>
+
+<p>Shibuya is one of those places that you just have to go to in Japan. It’s a Tokyo staple, and if you’re a weeaboo it’s most likely one of the first places that you’ll go to. Down one of the streets of Shibuya, you’ll find a giant multifloor building. That’s the mecca of Japanese music, Tower Records, the flagship store. You’ve done it, you’ve reached your dreams, you’ve come to the largest music shop in the world, 9 whole floors of Japanese music and culture. You see the giant yellow tower on the front of the building. And yes that is the Tower Bridge in Sacramento, California.</p>
+
+<p>Tower Records was an icon in the music world for decades, but is now dead. It filed for bankruptcy in 2006. Part of the reason for the decline in business was the rise of mass market discounters, but also the advent of the internet and early internet piracy made access to music easier. At this point, DSL had made it fairly instantaneous. Youtube started a year earlier at this point, and with Youtube immediately ripped music from CDs was uploaded online. Limewire was already more or less mainstream if you had internet.</p>
+
+<p>But there’s another place where Tower Records still lives. And that’s Japan. If you’ve ever gone on JP Twitter, you’ve seen the attitudes that they have towards piracy. Don’t copy that floppy, you dirty thief! To this day, there are still dozens of Tower Records stores in Japan. Travel protip: you don’t really have to go to the Shibuya location by the way, the other locations will still probably have your stuff, but honestly it’s much easier just to ship things from amazon.co.jp to your hotel room.</p>
+
+<p>But when was the last time you went to a CD or record shop in the west? Sure if you’re a hip and trendy zoomer with a digicam and wired earbuds and a matcha you’ll performatively buy a CD or a record from a mom and pop store, but how much money do you spend as a part of your income or net worth on these goods?</p>
+
+<p>We in the west, or at least America, consume our day-to-day music through streaming. The Recording Industry Association of America (RIAA) has numbers for this, with the breakdown: the vast majority (85%-90%) of revenue comes from streaming, not physical media. The streaming market mogs the physical media market. No way Tower Records would survive here.</p>
+
+<p>However, for one reason or another, whether it’s social or cultural or just an older way of doing things that I don’t know enough to go into, physical media is well and alive in Japan. If you’ve been on the internet long enough you would remember the stacks of AKB CD’s in the trash, bought on the hopes of a handshake ticket. You can pull up similar reports from the RIAJ (The RIAA but for Japan) and other sources, but current estimates show that most day-to-day revenue from music consumption is around a 60/40 physical/digital split. Japan is perhaps the world’s largest physical music market. Tower Records is still going strong.</p>
+
+<h2 id="scale-vs-depth">Scale vs Depth</h2>
+
+<p>The core of the issue is that Japan’s music industry and the western music industry have different incentives. Here’s what I mean.</p>
+
+<p>At some point, you can grow an entertainment industry in two ways. You can go either broad or you can go deep.</p>
+
+<p>Western artists rely deeply on streaming revenue from Spotify or Youtube Music or Amazon Music or whatever else people use these days. You have revenue per play, and you have monthly unique listens or downloads. You have Spotify charts. This is important!</p>
+
+<p>While Japan has been getting into the streaming business recently, it’s still at this point a smaller percentage of revenue than physical music media. They rely heavily on IRL stuff, folks going to Tower Records to buy CDs.</p>
+
+<p>The incentives are different. You don’t make money in the USA by getting people to buy your CDs, you get money in the USA by hype. You get it through attention of the masses; after all, the more listens the better. You want as many streams and clicks as possible on your Spotify because for every click you get some amount of fee. But in Japan, what do you want? You want people to whale on your CDs. You want them to spend tons of money on your other merch and records. Whether it’s a better model or not is up for debate, but it is what it is. Streaming is important, yes, but get people to buy the CD’s and records.</p>
+
+<p>Keep that in mind, because it’s important for how concerts are perceived and why Japan’s model is what it is.</p>
+
+<h2 id="ticketing-markets">Ticketing Markets</h2>
+
+<p>So far, we’ve only talked about revenue from music consumption on a day-to-day basis, or how the money flows from the music enjoyer to the music producer. Concerts are another deal.</p>
+
+<p>The parties involved in the transactions within the US concert ecosystem are numerous, with each middleman wanting to take their cut. But let’s just talk about the supply and demand aspect of shows in the US. For the purposes of this blogpost let’s refer to them as lives. We all talk about how evil Ticketmaster or Stubhub or AXS or whatever is, but let’s define them as what they are: they’re market makers that attempt to match supply of tickets or seats to demand for those tickets or seats. The main problem with this is that supply is relatively more finite to demand, and as we’ve become more of an interconnected entity regarding similar tastes in music, demand can completely outstrip supply and drive the price up at a rate faster than linearly. AKA Taylor Swift has millions of fans around the US (and world), but she can only have so many concerts as she is only one person. Thus, her supply is significantly more finite than the amount of demand, even within a single city of her Eras tour, driving up nosebleed tickets to many hundreds or thousands of dollars. The average price paid was, I believe, around $700.</p>
+
+<p>But how much were ticket prices in Japan for Taylor’s Eras tour? Around $140 for SS seats. So why the discrepancy? Logically, it would make sense for it to be at least a little bit more, as Swift is an international superstar. So why is that so?</p>
+
+<p>The difference is in the markets.</p>
+
+<p>The US concert market increasingly behaves like a financialized speculative market, where tickets are not just admission to the concert but tradable assets whose prices discover market-clearing demand. Secondary markets create liquidity almost to a fault, where tickets are exchanged willy nilly at free market rates and speculative arbitrage is normalized and even encouraged (well I don’t have a problem with it personally, at least!) You can make big money by buying that ticket, and if you can’t go, sell it later! The ticket itself is a real-time monetized asset that’s dynamically priced by the market maker, like flights booked with Southwest points that you cancel once prices drop. Additional value is captured through fees across day-to-day trades of the asset!</p>
+
+<p>However, Japan essentially (not totally, but they do it really well) blocks this market mechanism. There is (pretty much) no secondary market for tickets, and there is no auction. Many live shows are done via lottery, where you enter for a chance to win, but if you win, the prices are more or less reasonable. Your seats may even be completely random within a section as well. Either you win, or you don’t, and you accept the results. Sure, there are ways around that, such as applying for multiple tickets, but from a pure social perspective, it can be considered a more equitable method of finding well-deserved butts to seats. After all, the folks who can often pay the most aren’t usually the ones who are the biggest fans of the artist. The main problem is this: if JP suppresses speculative resale and market-clearing ticket prices, how does the industry capture all the additional value that could have been extracted from the ticket as an asset?</p>
+
+<p>But more importantly, why care who the biggest fans of the artist are? Why aren’t we optimizing here for pure economic profit, Japan? Who really cares who gets to see your show?</p>
+
+<p>In the west, there are huge amounts of value captured by promoters, Ticketmaster, on these transactions. The artist does, to an extent, care that their fans fill seats with butts, and cannot actually raise the face prices of the tickets without pissing off the fans. But then, how do we ensure proper allocation of resources across the market? Thus, we have the fall guy, the secondary market maker, to take the blame. We all hate Ticketmaster, right? It’s about preserving the image of the artist.</p>
+
+<p>But, suppose a secondary market cannot exist legally, as in Japan. What would the proper pricing to match butts to seats be? Could Taylor charge $700 a ticket at face value? No! Her JP fans who expect $100 tickets would seek to Twitter and complain! So Taylor leaves money on the table. And so do Love Live or Im@s or Momoclo or Mrs Green Apple or anyone else.</p>
+
+<p>So is Japan just bad at extracting willingness-to-pay? Where does all that spending power that’s on the table go? Well, it’s captured elsewhere in the fandom.</p>
+
+<h2 id="value-capture">Value Capture</h2>
+
+<p>We in the west treat the concert itself as a monetizable scarce asset. The show is the company, and the ticket price is its share price. The Spotify or Youtube Music price is fixed, and the product is infinitely reproducible, so it’s not scarce. It doesn’t mean anything to have the CDs anymore. Concerts are where willingness-to-pay gets aggressively extracted and distributed to producers, platforms, scalpers, and middlemen.</p>
+
+<p>Japan’s incentives for concerts are different. With the majority of revenue still coming from physical goods, there’s less pressure to extract every last dollar of willingness-to-pay from the live itself. Instead, fans can dump that remaining spending power into CDs, merch, fan clubs, acrylics, collectibles, and the rest of the ecosystem. The Japanese concert ecosystem is designed (or organically came to be?) to be a catalyst for consumer spending across the artist’s products, and the value is captured long-term through deepening fandoms and increased spend through physical goods and other associated products instead of the concert itself, and the fandoms and spend eventually reinforce each other. Lives are special little treats for the fans, reaffirmation rituals acting as retention mechanisms for current fans and conversion mechanisms for new ones.</p>
+
+<h2 id="who-do-we-blame">Who do we blame?</h2>
+
+<p>As to which system captures value more equitably or efficiently, I don’t really know and can’t speak to that. However, it’s important to understand that concerts serve different purposes in the US vs Japan.</p>
+
+<p>Why doesn’t Japan transition to America’s model? Surely if there’s a third-party market maker like Ticketmaster then people can blame their lack of access due to overwhelming demand on the market maker instead of on the producer, right? The main reason is that it’s kind of just illegal to do it, but the reasoning I think (at least my personal opinion) is that it feels better to leave the ticketing gods to RNG. If you don’t get in, it wasn’t meant to be, and oh well! Next time! The venue can only be a certain size after all, we get it.</p>
+
+<p>There are other benefits to their model. Instead of scalpers or market makers capturing that remaining willingness-to-pay through resale, their deeply loyal fans can spend it on hundreds of dollars of CDs instead. Penlights, can badges, fan clubs, acrylics, oshikatsu, whatever else - the money (in theory) will go into the ecosystem anyway, and long term good will is generated. In the end, the money is not just left on the table; some or most of it just enters elsewhere.</p>
+
+<p>Think of the $1.50 Costco hotdog (180 yen in JP). No way they’re earning money on that Costco hotdog. But that’s fine, because you’ll go in and spend money on some dumb stuff that you didn’t need. But more importantly, you’re thankful for Jim Sinegal for an environment where you can get a hotdog for $1.50. Costco shoppers are some of the most loyal shoppers out there, and once you’re a Costco shopper, unless you move out of the area, you’re most likely a Costco shopper for life. It’s the JP fandom way. You’re into Im@s for 20 years, and you dress up your kids in Im@s, and you’re a producer for life!</p>
+
+<p>However, if we applied the JP ticketing system to western audiences, there’s no similar money sink that fans can dump their extra money into! They aren’t going to buy CD’s - who do you know still has a CD player who isn’t performative or a boomer? Spotify only costs a certain amount a month, so does Youtube or whatever, and the companies themselves and all the other parties take a cut out of that anyway. So the concerts need to capture the willingness-to-pay! Otherwise, it just never gets monetized! Sure, they might be long-term fans, but who cares? There is no Costco for them to shop in so you have to raise the price of that hotdog to $8 to capture their money.</p>
+
+<p>I’m not saying the Japanese system is better than the west’s. In fact, I think it is often worse. I’d personally much rather have Ticketmaster than chuusen.</p>
+
+<h2 id="building-scarcity">Building Scarcity</h2>
+
+<p>These are more or less my opinions, but I believe that as concerts nowadays are a form of participating in luxury activities and developing caste in one way or another with regards to your position in the fandom is important to the experience. And what is more luxurious than scarcity? It’s all about scarcity.</p>
+
+<p>The key is differentiation, JP builds scarcity by products, the west does it by price.</p>
+
+<p>Posting about something is akin to proving your worth, and in the US, the biggest fans are the ones who go to concerts. In JP the biggest fans are the ones who have the most merch, the ones who perform oshikatsu, the ones who buy all the CDs and are in the fan club, and have the most acrylics and can badges on their itabag. Because in Japan, if you didn’t get concerts, it’s “oh well, what can I do?”</p>
+
+<h2 id="why-the-japanese-market-doesnt-care-to-make-it-easier-to-foreigners">Why the Japanese Market doesn’t care to make it easier to foreigners</h2>
+
+<p>Simply put, you don’t really spend that much on goods.</p>
+
+<p>“Well, I buy my idol CD’s every time from Mandarake.” The artist and the music industry do not capture the value from resale markets.</p>
+
+<p>“Well I contribute towards Japan’s economy through flights, hotel stays, etc.” The artist and the music industry do not care. Sure, it’s great for the taxpayers, but Pony Canyon doesn’t care (well, as much)</p>
+
+<p>Every spot a foreigner takes up in a domestic JP live is a lost opportunity to retain a loyal domestic fan or convert a new JP fan who will then proceed to generate revenue for the artist for a long time through merch and other purchases. Costco doesn’t want you to access their food court if you’re not a member or you aren’t going to ever be one because you don’t live in a place near a Costco.</p>
+
+<p>It’s not that they don’t want your money; you’re just not integrated into the monetization loop and if you aren’t, then they aren’t going to cater to you.</p>
+
+<h2 id="is-this-good">Is this good?</h2>
+
+<p>No, but it’s the way they do things. There are existing networks of scale that US artists and promoters and groups can leverage to capture more value in concerts that I imagine JP artists are able to, so it’s probably extra hard to do business here. I don’t really know too much about the percentages of revenue and kickbacks that Swift gets from her shows but it’s probably more than what Love Live would be able to get at Levi Stadium.</p>
+
+<h2 id="what-can-us-fans-do">What can US fans do</h2>
+
+<p>Nothing really, JP might switch to more streaming platforms and less of a physical merch ecosystem but who really knows? But I don’t think complaining at them will do anything because they really don’t have an incentive (well, that they recognize) to make JP stuff available worldwide.</p>
+
+<p>One of the main issues with merch and physical goods is that they don’t actually have amazing margins, and that it’s well, physical. You have to make it, you have to transfer it, you have to have it in shops or online, or available at events. If you’ve ever done buppan at a live you know it’s an absolute bear. The logistics of doing that at overseas events and capturing enough overseas monetization is not, well, great.</p>
+
+<p>So there’s not much incentive to make the process easier for you. Some folks do it, like for instance Holo, but as Cover has expanded internationally already, it makes more sense for them. But for more niche stuff, lol.</p>
+
+<p>I think the best way is probably to just more Spotify listens &amp; Twitter follows lol.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/05-19-2026/jp-ticketing-systems.html</guid>
+                <description>
+                    
+                    Why do you need a phone number for this stuff?
+                    
+                </description>
+                <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>The American Garage</title>
+                <link>https://blog.memes.moe/posts/09-20-2024/the-american-garage.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Singapore’s remarkable success as a nation is often humorously attributed by Lee Kuan Yew to the invention of the air conditioner. While it may start as a joke, there’s truth to it. Singapore has distinguished itself from its Southeast Asian neighbors by presenting itself as a first-world nation, in part thanks to the comfort provided by air conditioning. This ability to offer a conducive work environment attracted investments and opportunities, transforming it from a nation with dirt roads and few resources into a global business powerhouse. Given its limited natural resources, Singapore had to leverage its human capital and strategic location. Without air conditioning, the extreme heat and humidity would have made a productive work environment nearly impossible.</p>
+
+<p>In the United States, we have our own success story: Silicon Valley. This region is often envied worldwide for its innovation and significant contributions to the American economy. Discussions about replicating its ecosystem of innovation frequently mention factors such as deregulation, access to funding, and even the weather. However, one essential element is often overlooked: the garage.</p>
+
+<p>Many of us casually reference the fact that companies like HP, Disney, Microsoft, Apple, and Amazon “started in a garage,” but we rarely reflect on what that truly signifies. Would these companies have emerged without garages? I believe not.</p>
+
+<p>Before Silicon Valley became synonymous with software, it was a hub for hardware development, which is reflected in its name. Building hardware requires a dedicated workspace. While one could use a living room or apartment, the nature of hardware development—often messy and requiring specialized equipment—makes a garage a more suitable option. Indoor soldering generates fumes, lab equipment can damage home furnishings, and external weather conditions can be unpredictable. A garage provides a clean, accessible space for experimentation and innovation without the constraints of a rented warehouse, which can be costly.</p>
+
+<p>For many, a garage is an underappreciated asset. It serves as an ideal workspace—a mini-warehouse connected to your home, customizable and equipped for a variety of tasks. It can house power tools, CNC machines, and other equipment, acting simultaneously as a manufacturing center and a shipping hub. The convenience of working with friends or neighbors nearby enhances collaboration, while climate control is as simple as opening the garage doors.</p>
+
+<p>Garages became popular in the 1920s with the rise of automobile ownership and boomed in the post-World War II suburban expansion. The standardization of homes kept prices low, while the growing demand for cars necessitated storage space, leading to the creation of garages. These spaces allowed homeowners to maintain their vehicles and store tools without cluttering their living areas.</p>
+
+<p>In America, garages have naturally fostered innovation. They offer a sheltered environment where individuals can create and experiment freely, equipped with the tools they need. This contrasts sharply with Singapore’s emphasis on air conditioning, which arose from its hot, resource-scarce environment. While air conditioning supports a thriving office culture, America benefits from its mild climate and ample land, making garages a practical solution for innovators.</p>
+
+<p>Without garages, our landscape of innovation would look very different. Urban settings often limit opportunities for creation, forcing individuals to work in their living rooms, which can detract from quality of life. This issue is evident in the divide between San Francisco and the broader Bay Area, where tech hubs favor software development over hardware production.</p>
+
+<p>Ultimately, the key to America’s growth lies in its garages. If other countries aspire to emulate our success, they should consider building single-family homes with attached garages as a foundational step.</p>
+
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-20-2024/the-american-garage.html</guid>
+                <description>
+                    
+                    The hidden key to America&apos;s success is the humble garage
+                    
+                </description>
+                <pubDate>Fri, 20 Sep 2024 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>How To Complain About AI Art</title>
+                <link>https://blog.memes.moe/posts/01-11-2024/how-to-complain-about-ai-art.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>There are two main criticisms of AI art (that is, not on the effects of AI in art, but rather the art itself) - AI art sucks and can’t draw hands or cannot replicate the technique of a human artist, and also AI art lacks ‘soul’ or ‘emotion’ as Art is something sacred to be created by Humans.</p>
+
+<p>“AI art sucks. It can’t draw hands. Look at the line around this character and the inconsistent shading. AI will never be able to replicate the delicate detail around the eyes.”</p>
+
+<p>But the artist community most upset about AI art is not one that will criticize their own on the technical merits of their work. The detachment from technical ability and the value of the artwork is emphasized the most in artist communities which abhor AI generated artwork. Support is given to even the most rookie of artists, and technical merit is downplayed in favor of the content of the artwork, the character of the artist, and the story of the journey itself. In essence, the detractors of AI artwork’s technical merit are themselves, not applying the same criticism to human artwork. This is most likely a byproduct of over-socialization; ‘don’t say anything you wouldn’t want said to you’. Those who throw themselves so deeply into their passion are often the ones who take criticism the worst, and so often produce mediocre work as they take offense to anyone who suggests changes, and with these True Believers at the core of their movement, any movement that does not embrace the value of negative feedback stagnates and creates a safe, but mediocre, space, one devoid of the cycle of failure and improvement.</p>
+
+<p>“AI has no soul and is emotionless as it is not created by a Human. Look at this generic, bland photo. There’s nothing behind it”</p>
+
+<p>The predication of emotion and soul existing behind a piece of artwork means that there is some sort of human element that cannot be duplicated by machine. It renders the technical ability of the work only a medium by which to convey some sort of story or emotional feeling, something the proponents of such a criticism feel AI lacks. Humans are to Art as God is to Humans, and as only God can create Humans, only Humans can create Art. A good argument nonetheless for True Believers. But do those who criticize AI art on this basis themselves believe they were created from randomness, from evolution? The disconnect between believing they themselves were a part of Nature’s Evolutionary Learning Algorithm and the ability for themselves play God to Art is something of a mental gymnastics optimization problem.</p>
+
+<p>Not only are the two most dominant criticisms against AI generated art in contradiction to each other, they’re in contradiction to the criticizer’s own beliefs. No wonder they’re so unhappy.</p>
+
+<p>So what should you do if you don’t like AI art? How do you avoid being unhappy by creating unrealistic mental models for trying to justify human created artwork? How CAN you launch criticisms against it?</p>
+
+<p>By simply not.</p>
+
+<p>Just complain that it’s taking your jobs!</p>
+
+<p>Coal miners complained about the technical aspects of solar, they complained about the aesthetics and the ecological impact and the economic impact, but none of those did anything to them. In the end the they just became solar installers.</p>
+
+<p>Technology from an economic perspective exists to expand the Production Possibility Frontier by keeping L (labor) and K (capital) consistent, or rather to reduce L and K while keeping PPF consistent. It’s here to take everyone’s jobs so people can move onto different things. Unless significant demand is induced, L and K will and should shrink while production is kept constant in line with demand, and will result in a lower cost.</p>
+
+<p>Technology comes for everyone, whether you’re an artist or a truck driver or a coal miner or a horsekeeper or a village shaman. Just complain about it!</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/01-11-2024/how-to-complain-about-ai-art.html</guid>
+                <description>
+                    
+                    Why you should be complaining about jobs instead of AI art itself. You&apos;ll feel better.
+                    
+                </description>
+                <pubDate>Thu, 11 Jan 2024 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>The Two Americas</title>
+                <link>https://blog.memes.moe/posts/09-14-2023/the_two_americas.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>“America stands divided.” But what’s the dividing line? Some might point to politics. Others may argue it’s ideology or even geography. Articles keep popping up, trying to dissect the “Two Americas” at their core, but they often overlook the intricate web of interconnecting cultures, policies, demographics, and environments that fuel this division.</p>
+
+<p>In the realm of science and research, we often seek to explain phenomena through causal studies. A correlational study just doesn’t pack the same punch as a causal one. No one’s rushing to publish your work until they grasp why that correlation exists. The pressure to overfit our models can be overwhelming. However, instead of trying to pinpoint the root differences of the Two Americas, why not define them by their symptoms?</p>
+
+<p>There indeed exist Two Americas. In one, you’ll find places, regions, towns, and cities where public bathrooms are as plentiful as they are free. Need to relieve yourself? It’s a no-brainer; just step into a McDonald’s or Starbucks, and you’re good to go – no secret code, no purchase required. The restrooms might not be pristine, sure; there could be water puddles around the sink, and the toilet paper might be of the single-ply variety, but hey, it’s free. You’re free to do your business without interaction or inquiry. You can sip from your gym bag’s water bottle without a second thought, munch away, and carry on with your day, unburdened by thoughts of tummy discomfort or mapping out the nearest public restroom in a park using Google Maps. Restrooms are so ubiquitous in your life that you don’t even think twice about them.</p>
+
+<p>Now, shift your gaze to the other America, where public restrooms aren’t so charitable. Need to go? Brace yourself for a strategic operation. You might plan your restroom breaks around establishments where you’re a paying customer. You could find yourself holding it in until lunchtime, forgoing that water bottle in your bag, or opting for a lighter meal to avoid the inevitable restroom hunt. Sometimes, you’ll spot a McDonald’s or Starbucks, only to discover that their restrooms are exclusively for paying patrons. In such moments, you reluctantly purchase a coffee just to score a restroom code. And when local laws mandate public restroom access, you might just encounter the “out of order” sign at the most inconvenient times.</p>
+
+<p>The need to answer nature’s call is a universal one (unless you’re perpetually dehydrated). Yet, the barriers to doing so are all too familiar in the second America. Those in the first America hardly notice these challenges.</p>
+
+<p>Now, consider this scenario: pluck a man from the First America and drop him into the Second America, and you’ve got a recipe for frustration. He’ll question why he can’t simply use a McDonald’s restroom without the prerequisite McChicken purchase. He’ll grumble about every closed restroom he stumbles upon. Nevertheless, he’ll adapt; he’ll ration his water intake and carry hand sanitizer for those sketchy park restrooms. It’ll be bewildering at first, but he’ll soldier on.</p>
+
+<p>On the flip side, transplant a Second America resident into the First America, and brace for shock. They’ll raise an eyebrow at the sight of a clean, open McDonald’s restroom. Their initial confusion at the concept of freely accessible restrooms will fade as they gradually embrace the idea. Unconsciously, they’ll start drinking water more liberally, and while there might be some initial befuddlement, they’ll eventually find their footing.</p>
+
+<p>The dichotomy between these two Americas isn’t just a matter of restroom availability; it’s also a reflection of the mindset ingrained in the citizens of each realm.</p>
+
+<p>In the America blessed with abundant public restrooms, a sense of convenience and entitlement often prevails. People move about their daily lives without the burden of restroom-related worries. They hydrate without a second thought, snack whenever the urge strikes, and navigate their day without the constant awareness of the nearest bathroom’s location. This freedom from restroom constraints not only impacts daily routines but also influences attitudes towards consumption, hydration, and even the acceptance of discomfort. In this America, the notion of “freedom” extends beyond the political realm into the realm of bodily functions, where personal needs can be addressed without hesitation or constraint.</p>
+
+<p>Contrastingly, the Second America, where public restrooms are scarce and often locked behind purchase barriers, fosters a mindset of restraint and calculation. Residents here must carefully plan their restroom breaks, consider their liquid intake, and strategize around meal times. The constant juggling act between hydration, nutrition, and the impending need for a restroom influences how they approach their daily routines. This mindset reinforces the idea that certain basic needs, like answering nature’s call, must be earned or planned for, and it often results in individuals unconsciously suppressing their physiological requirements to avoid inconvenience or embarrassment.</p>
+
+<p>But more than anything, it reflects on the mindset of each person’s view of America as a whole. First America citizens see their America as a land of convenience and opportunity. They take great pride in their America. Second America citizens see their America as a land of inconvenience and struggle. They view their America with a lens of shame.</p>
+
+<p>For citizens of the First America, their land is one of boundless pride. They take immense pride in the accessibility and freedom of their public restrooms, seeing them as emblematic of the American spirit – a land where convenience and liberty are paramount. In their eyes, this privilege extends beyond restroom access; it represents an entire way of life, where needs are met with ease, and obstacles are minimal. This perspective often translates into an unshakeable faith in the nation’s ability to overcome challenges and a sense of entitlement to the comforts of life.</p>
+
+<p>Conversely, for citizens of the Second America, there’s often a sense of shame associated with their restroom predicament. They view their limited restroom access as emblematic of a broader systemic failure, where inequality and inequity loom large. They may carry a sense of embarrassment or even resentment towards a society that doesn’t ensure equal access to something as basic as a restroom. This shame can extend to their perception of the nation as a whole, seeing it as a place where fundamental needs are not universally guaranteed and where systemic issues persist.</p>
+
+<p>These mindsets are self-fulfilling. In the First America, citizens take immense pride in their easy access to public restrooms. They take for granted things that should be taken for granted, and strive to make their America one where these things can continue to be taken for granted. Anything that attempts to reduce their access to free restrooms is an attack on their America. They live their lives with this freedom. So they work hard to maintain these freedom. They maintain order, cleanliness, civility, trust. They assert that people, like them, are good. They assume that people who use the public restroom are good. The thought of committing an act that removes these benefits for First America is disgusting and almost unimaginable.</p>
+
+<p>In the Second America, the citizen feels helpless. They have to bend their lives to the powers which control the restrooms. Their entire lives are structured in a way where they are constantly reminded of their helplessness. This reduces their agency. They accept that their America will never have free restrooms, and live their lives under the control of the bathroom key. They accept that they will never have the free use toilets. They do not care about the maintenance of order, cleanliness, civility, or trust. They assume that there will be people who destroy these toilets, and assert that they can never be free due to the drugs and destruction that happens around them. If someone shoots up in a McDonalds bathroom, oh well - it’s just a fact of life.</p>
+
+<p>This stark contrast in attitudes towards public restroom access fuels a spiral in each of the Americas. In the First America, any act of violence or disruption that threatens restroom accessibility is met with outrage and condemnation. However, in the Second America, similar actions often go unnoticed or are met with apathy. This glaring disparity in responses to public restroom-related crimes further deepens the divide between these Two Americas.</p>
+
+<p>These Two Americas transcend rural and urban boundaries, racial and ethnic ties, and income levels. The availability of public restrooms in each America isn’t determined by a single causal factor but rather by a multitude of factors. However, more crucial than the actual availability of public restrooms is the reflection of the mentality of the residents in each America. It’s the contrast between a mentality of possibility and one of hopelessness that truly defines these that divide.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-14-2023/the_two_americas.html</guid>
+                <description>
+                    
+                    Forget rural vs urban, forget red vs blue, forget Asuka vs Rei, these are the real Two Americas
+                    
+                </description>
+                <pubDate>Thu, 14 Sep 2023 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>I-5, The Great California High Speed Rail</title>
+                <link>https://blog.memes.moe/posts/07-18-2023/driving_from_sac_to_la.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>It’s 4 in the morning. Well, 4:02 AM. You start with a full tank of gas, forty ounces of water, and a couple of granola bars for your journey.</p>
+
+<p>Your goal: Los Angeles by 9 AM, preferably by 8:30. You take the freeway and hit the 5. You’ll spend the next four and a half hours here. You take it easy out of Sacramento - cops are notorious for hiding behind the bushes. You’re going 75 miles an hour, but you only have to do it for ten minutes.</p>
+
+<p>After you leave the Freeport area, there isn’t anything until Stockton. It’s too early for the truckers to have woken up, and the Silicon Valley super commuters take the 80. But you still have to take it easy; it takes you 25 minutes to reach the center of Stockton. You see the super commuters heading to work and join them, acting as part of the rat race for a bit. But 15 minutes later, you’ve reached it. The split. You see the wagies split off to the 205, and you have the most pure, unadulterated stretch of highway you can get this side of the Sierras.</p>
+
+<p>The twelve miles before the 5 joins back up with the 580 represent lawlessness, no cops, no other cars at 5 am. You press on the pedal; what should take ten minutes takes six. Unfortunately, it’s back to the merge, but here’s where it gets fun. You slow down a little bit, but you’re still cruising at 95. Soon, you see the familiar signs of Flying J, Chevron, on your left. You’ve reached Patterson, and it hasn’t even been an hour. You skirt the hills as you zoom by. You know that aside from a cop check at Los Banos, the highway is yours and yours alone.</p>
+
+<p>It’s 175 miles to Buttonwillow, a trip that should take two and a half hours. You plan to do it in less than two. You put on your podcast and are in the zone. Google maps estimates you’ll arrive in LA at 10. You know you’ll get there at 8:45. You pace your water and granola intake, ensuring you can hold your bladder for the next two hours. Your miles per gallon drop thirty percent as you zoom by the few semi-trucks on your right. The sun starts to rise on your left. At first, it’s blocked by your A-pillar, but soon it’s in your eye, but you knew that. You anticipated that. You put on your sunglasses, drop your sun visor, and extend it all the way to the left. You shimmy your lightweight jacket on to protect your arms from the sun. Problem solved.</p>
+
+<p>Soon you zoom by Kettleman City, the last of the hills, and you truly enter the valley. You see the sign of the In-n-out race by, and you see the few electric vehicles parked there, poor souls. Thirty miles and twenty minutes to Lost Hills. But Lost Hills is for the uninitiated, and you are initiated. You forgo the temptation of McDonald’s, Burger King, Taco Bell, and the Arco that’s so close in favor of an extra fifteen minutes. Buttonwillow, your only fuel and bathroom stop for the drive. You turn off and go under the 5. Taste of India? One day you’ll try it, but today isn’t the day. You see the farm workers already hard at work, and the taco trucks lining up at the SureStay. But you don’t have time for that.</p>
+
+<p>You pull up into the TA Travel Center and start the pump. You leave your car with your water bottle. The Taco Bell and Popeyes combination shop are closed, but their drinking fountains are always accessible. You fill up on ice-cold water, set your bottle on the counter, and go take a piss. By the time you’re done, your car is filled up and ready to go. You’re ready to go. You throw away the Nature Valley bar wrappers that have entertained you for the last few hours, and you get back on the 5. Google says it’s two to the 110, but you know it won’t take you that long. The long on-ramp lets you hit the 5 running. It’s 6:50. You still have twenty minutes of fun before you have to merge with the 99, where the real traffic comes in. You take the bridge to merge in, wondering if it would’ve been faster to take the truck ramp. Well, who cares, it’s still early and you have time.</p>
+
+<p>The outlets loom by like a man-made oasis. You’ve never been, and likely never will. You zoom by the Ikea Distribution center and prepare yourself for the Grapevine. There are warning signs to turn off AC, but it’s not warm enough yet to turn your AC on. Soon you’ve climbed up into the mountains, and you’re blazing by Fort Tejon. The gentle slopes of the 5 and the lack of traffic mean you save on gas at every decline. On your right, Pyramid lake. You always wonder if it’s named after the strange triangle carving on its side, but you’ve never been bothered to look it up. But now you know you’ll soon approach civilization again. You see the blue skies turn gray in the distance as you begin your descent. But don’t get too happy now, you still have a bit left to go and another mountain range to pass.</p>
+
+<p>You see the empty Six Flags, and wonder if you were driving a few hours later, would it be full of children? But those thoughts leave your head as you zoom down the final stretch. You see the Van Norman reservoir. Whatever happened to those shade balls they put there? By now your trip is ending. There are cops and traffic on either side, but luckily it’s not too bad. You see the airplanes on the mall signs in Burbank, and the Ikea right next to the highway. Just a few more miles, and you’ll have reached the 110. You veer right through a rickety two-lane off carved into the Elysian park to merge with the 110. As you pass Dodger Stadium, you know your trip is finished; the view of the Intercontinental is in front of you. The time is now 8:37 AM.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/07-18-2023/driving_from_sac_to_la.html</guid>
+                <description>
+                    
+                    Norcal to Socal in less than 5 hours
+                    
+                </description>
+                <pubDate>Tue, 18 Jul 2023 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>The Virgin SpongeBob and the Chad Patrick</title>
+                <link>https://blog.memes.moe/posts/03-20-2023/the_virgin_spongebob_the_chad_patrick.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>SpongeBob SquarePants, an animated television series created by Stephen Hillenburg, has been entertaining audiences since 1999. The show revolves around the adventures of the titular character, SpongeBob, and his best friend, Patrick Star. Although both characters are beloved by fans, their personalities and roles within the series can be analyzed through the lens of the “Virgin vs. Chad” meme, which contrasts the characteristics of a socially awkward, inexperienced “virgin” with a confident, experienced “chad.”</p>
+
+<p>SpongeBob: The Virgin</p>
+
+<ol>
+  <li>
+    <p>Insecurity: SpongeBob often displays insecurity and a lack of self-confidence, which are traits typically associated with the “virgin” archetype. He frequently seeks validation from others, such as his boss Mr. Krabs, his driving instructor Mrs. Puff, or his friend Sandy Cheeks.</p>
+  </li>
+  <li>
+    <p>Naivety: SpongeBob’s innocence and naivety are central to his character. He is often oblivious to the intentions of others and can be easily manipulated, as seen when Plankton tricks him into stealing the Krabby Patty secret formula.</p>
+  </li>
+  <li>
+    <p>Work Ethic: SpongeBob’s dedication to his job at the Krusty Krab is commendable, but it also highlights his submissive nature. He is content with his role as a fry cook and rarely seeks to advance in his career or explore new opportunities.</p>
+  </li>
+</ol>
+
+<p>Patrick Star: The Chad</p>
+
+<ol>
+  <li>
+    <p>Confidence: Patrick Star exudes confidence, a key trait of the “chad” archetype. He is unapologetically himself and rarely questions his abilities or decisions, even when they lead to disastrous outcomes.</p>
+  </li>
+  <li>
+    <p>Carefree Attitude: Patrick’s laid-back, carefree approach to life contrasts with SpongeBob’s anxiousness. He is often seen lounging under his rock, unconcerned with responsibilities or societal expectations.</p>
+  </li>
+  <li>
+    <p>Social Skills: Despite his lack of intelligence, Patrick is often more socially adept than SpongeBob. He is able to make friends easily and is generally well-liked by the residents of Bikini Bottom, including the usually grumpy Squidward.</p>
+  </li>
+</ol>
+
+<p>Conclusion</p>
+
+<p>In the world of SpongeBob SquarePants, SpongeBob embodies the “virgin” archetype, characterized by his insecurity, naivety, and submission to societal expectations. In contrast, Patrick Star represents the “chad” archetype, with his confidence, carefree attitude, and social prowess. This dichotomy between the two characters adds depth and humor to their friendship and the overall narrative of the show, making it a timeless classic.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/03-20-2023/the_virgin_spongebob_the_chad_patrick.html</guid>
+                <description>
+                    
+                    The humor of SpongeBob in the context of modern memetics
+                    
+                </description>
+                <pubDate>Mon, 20 Mar 2023 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Suburbs are the new 15-minute city</title>
+                <link>https://blog.memes.moe/posts/02-14-2023/suburbs_the_new_15-minute_city.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>The 15-minute city is the new hot thing the elites are all talking about. Whether it’s in the New Yorker or in Davos, the 15-minute city has gripped the conversation by storm. An idea created by urbanist Carlos Moreno, the 15-minute city is one where a citizen can have all the services they need within a 15 minute walk of their home. They can enjoy work, school, restaurants, shopping, parks, cultural activities, and everything else without walking more than 15 minutes one direction from their home.</p>
+
+<p>The 15-minute city is now used as an example of what could’ve been in America, an idea that would’ve been possible if not for the evil car corporations and the evil gas companies. Proponents of the idea argue that suburbs &amp; urban sprawl are the antithesis of the 15-minute city, and inconvenience everyone.</p>
+
+<p>But is that really so? Are the suburbs that inconvenient? No matter how much the zeitgeist pushes the idea that people enjoy dense, urban cores where everything one would possibly need is within 15 minutes walking distance, folks are moving out of these dense, urban cores into the burbs of major metropolitan areas across the United States. They’re moving to the outskirts of Austin and Dallas, of Phoenix and Boise. Why?</p>
+
+<p>Of course, there are a variety of usual factors that are easily identified; affordability, larger homes, crime, etc. However, the allure of the 15-minute city should have people moving to urban cores in droves, right? Why are so many people happy and content with the suburbs?</p>
+
+<p>Well, the suburbs are the new 15-minute city.</p>
+
+<p>“But I can’t walk to a school, a movie theater, find ethnic food, or go to a park in 15 minutes of walking from my burb! Look at this poor planning!” - one would say, and they would be correct. But, they could drive there. With a car.</p>
+
+<p>The suburb is the new 15-minute city because of the automobile. Pick a desirable suburb, and you can drive to all these places within 15 minutes. Sure there might be some traffic some days so it’ll take you 20 minutes instead of 15, but a few badly timed stoplights can impact your walking through an urban core as well. And often times, there are more amenities available to a suburbian resident driving a nice, air conditioned SUV on their arterial roads than a city dweller walking by foot.</p>
+
+<p>For instance, from my location in the burbs, just within a 5 minute drive, there are:</p>
+<ul>
+  <li>Numerous restaurants, including a variety of ethnic foods run by mom and pop stores as well as major fast food chains (McD, In-n-Out, Chipotle, Wingstop, Blaze, you name it), coffee shops, both independent &amp; chains, breweries</li>
+  <li>Costco, Walmart, Target, Home Depot, Lowes, Best Buy, various grocery stores and chains, pharmacies</li>
+  <li>Schools - multiple elementary schools, middle schools, and one high school</li>
+  <li>Specialty shops - Grill stores, internet cafe (yep!), Fedex &amp; UPS</li>
+  <li>Mall - million square foot plus mall with all the mall amenities, arcades, bowling, food court</li>
+  <li>Movie theaters - multiple, don’t like one? choose another</li>
+  <li>Local parks - miles of walking trails connecting to hundreds of acres of parks by greenbelts</li>
+  <li>Gyms - multiple within a 5 minute drive, including public swimming pool and other exercise facilities</li>
+  <li>University - yep, within a 5 minute drive</li>
+</ul>
+
+<p>Within a 10 minute drive:</p>
+<ul>
+  <li>Libraries</li>
+  <li>Multiple world class hospitals featuring specialists</li>
+  <li>Water park</li>
+  <li>Golf courses (if you’re into that sort of thing)</li>
+  <li>Industrial area with large multinational corporations</li>
+  <li>Convention area and event spaces</li>
+  <li>Local farmers market</li>
+  <li>Large regional park</li>
+  <li>Community college</li>
+  <li>Casinos</li>
+  <li>Nurseries (for plants)</li>
+</ul>
+
+<p>Within a 15 minute drive:</p>
+<ul>
+  <li>Major lake &amp; state park with extensive hiking trails &amp; aquatic activities</li>
+  <li>Wineries</li>
+  <li>Local farms selling local produce &amp; specialties</li>
+</ul>
+
+<p>And this isn’t unique to just my little suburb. Pick an address in the middle of many of the suburbs in the outskirts of major metropolitan areas and they’ll offer the same set of amenities within 15 minutes. Sure some might not have a mall within driving distance, or some might not have a casino or a convention center or a water park, but the basics will generally be there; everything you’ll need for the most part, within 15 minutes or less.</p>
+
+<p>Even large cities are not 15-minute cities, except for the very very few:</p>
+
+<p>For example, this excellent visualization of Seattle as a 15-minute city by Nat Henry demonstrates which blocks have access to what amenities: https://nathenry.com/writing/2023-02-07-seattle-walkability.html</p>
+
+<p>Play around with the check marks, and see what amenities are available within 5 minutes! There are only a handful (I count 9 or 10) of city blocks that are within 5-10 minutes of supermarkets, libraries, parks, restaurants, coffee shops, and all three types of schools. Of course, Seattle is not the perfect urban core, but with all its best efforts only a few blocks offer to the pedestrian the same amenities as a sububanite with a car within the same time.</p>
+
+<p>“But this is what we’re trying to change!” proponents say. Well, it’s obviously not working! People want their space, and with the suburbs, they can have their amenities too, and there’s no reason to make the idealized, fantasy 15-minute city exist. And even many urban living proponents, once they have children or enough money to afford a home, will end up buying a single family home on the outskirts and enjoy the amenities by car.</p>
+
+<p>But isn’t owning a car expensive? Sure it is, but everything else is cheaper - the cost per square foot of any urban core in the US versus its suburbs is so drastic that the cost of a car pales in comparison. And many people like cars. They like their space, their backyards, their clean sidewalks, and their lawns. They like the ability to drive to a Costco within 5 minutes, pick up a bunch of toilet paper, and have it not get wet from the rain on the drive back.</p>
+
+<p>The suburbs are the new 15-minute city. Sure, some suburbs kind of suck, but reasonably priced, well-accessed, safe, clean suburbs are available in much of the outskirts of tier 2 cities all throughout America. And people are moving to them; Plano, Scottsdale, Irving, Boulder. They offer all the benefits and amenities of a large city provides within a 15 minute drive, plus the safety, privacy, space, and affordability that people want.</p>
+
+<p>We already have 15-minute cities; they’re called the suburbs.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/02-14-2023/suburbs_the_new_15-minute_city.html</guid>
+                <description>
+                    
+                    Stated vs revealed preferences
+                    
+                </description>
+                <pubDate>Tue, 14 Feb 2023 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Accepting Dependency Hell</title>
+                <link>https://blog.memes.moe/posts/02-14-2023/dependency-hell.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>“The dependency hell that modern technology has created for itself will be its major downfall. Complexity is liability, and modern software products and services have become too complex for their own good. After a certain while, things are too complex to maintain and have to be scrapped.”</p>
+
+<p>People realize that the above is true; it’s not a secret or some smart insight, rather it’s the basis of what is technical debt. However, while we all understand it, we still dive deep into complexity and dependency without hesitation. For instance, look at the new hotness: AI companies which are nothing but layers built on top of GPT-3 or some other common AI model. And VCs are funding these new AI companies.</p>
+
+<p>And that’s fine. The primary purpose of technology is to shift the production possibility curve upwards and to the right. Technology should be considered a consumable, instead of a liability or an asset; complexity can and should be built in with the expectation that the tech with which it is build is going to have a tangible deprecation curve.</p>
+
+<p>Careers were built on tending horses, and then working the railroads, and then fixing carburetors, and now on electric charger installations, and with each iteration the complexity of dependent factors, whether it be supply chains or engineering effort or infrastructure, increases significantly. In the end, people are still employed, and the production possibility frontier is shifted upwards and to the right, fulfilling the role of technology in social development.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/02-14-2023/dependency-hell.html</guid>
+                <description>
+                    
+                    Modern software is built on a house of cards, but that&apos;s okay
+                    
+                </description>
+                <pubDate>Tue, 14 Feb 2023 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Why Artists Shouldn&apos;t Fear AI</title>
+                <link>https://blog.memes.moe/posts/11-29-2022/why_artists_should_not_fear_ai.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Recently there’s been a lot of hubbub about how AI art is not “real art,” or how it’s immoral. In particular, these discussions are happening on hubs where many artists share their products such as on Twitter. Popular arguments as to why AI art is not of artistic value are that they take no skill to produce, they have no soul, and that they are stealing the art of real artists and displacing them. Most importantly, artists fear the idea that AI can replace them - a fear that they don’t have to worry about yet.</p>
+
+<p>First, let us define art in the context of this article. In particular, we are talking about art in the format of drawn images. In addition, let us separate the definition of art market for the sake of this article; the art market is separated in two segments, one being the art market in world of galleries, auction houses and museums and MOMA vs art sold through direct transactions from the artist to the client, whether it be at a small booth, commissions, or through employment contracts. We are talking about the latter.</p>
+
+<p>There are several reasons why AI art will not be displacing these Twitter artists anytime soon, but the main reason is that it’s simply cheaper to just hire an artist to draw it out than to hire someone who can understand AI and deep learning to the level of putting out professional products according to spec. A company can pay for five to ten designers for the price of an AI expert who can fine tune the product to the level five designers can. AI is good at generating generic products, but fine tuning the prompts to match a product that requires specific details or uses cases takes manual effort. It would be far cheaper to just hire a designer to pump something out, especially as designers can be outsourced to third world countries where labor is cheaper than the cost of buying compute on GPUs.</p>
+
+<p>Small time artists who sell at local fairs or conventions have even less to fear. Generic art does not sell well, and building a decent, high quality, AI pipeline to sell art at local exhibitions requires skill &amp; equipment belonging to someone who would be capable of holding a day job or consulting gig that pays significantly more. An AI professional would not sell at a local arts &amp; crafts fair; it simply would not be worth their time.</p>
+
+<p>So don’t worry! Right now you’re fine! Instead of worrying about the future, treat AI art the same way software engineers treat AI tools such as GitHub Copilot. Even when cars replaced the horse &amp; the carriage, people chugged along and became mechanics. When we switched from coal to solar, we told the coal miners to learn to code. Markets eventually work out in allocating labor with demand!</p>
+
+<p>One last thing - the power of an artist’s work is their brand. Worry about the brand more than the content, and the content will sell itself!</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/11-29-2022/why_artists_should_not_fear_ai.html</guid>
+                <description>
+                    
+                    Don&apos;t worry Twitter artists, AI won&apos;t be taking your job anytime soon
+                    
+                </description>
+                <pubDate>Tue, 29 Nov 2022 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Enkidu and Eating Grass</title>
+                <link>https://blog.memes.moe/posts/11-23-2022/enkidu_and_eating_grass.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>In the Epic of Gilgamesh, Enkidu was created by the Goddess of creation herself, Aruru. Enkidu was noble, with long hair and innocent of mankind. Enkidu ate grass in the hills with the gazelles and drank water with them at the water-holes.</p>
+
+<p>One day a young man, a trapper, met Enkidu. And the young man feared him, for Enkidu could not be controlled. Enkidu ate grass with the gazelles and drank water from the water-holes with the lions, and the young man could not offer Enkidu anything of value to get him to stop messing around with his traps. So, he paid a prostitute to have sex with Enkidu. Afterwards, Enkidu found that he could no longer communicate with the beasts and could not eat grass. He had become a man, and has become socialized. He now worked for humans.</p>
+
+<p>Later on, Enkidu would meet Gilgamesh, be best friends, and then get killed by the Gods for his shenanigans.</p>
+
+<p>Enkidu’s tale represents the lost of nature in the face of civilization. By having sex and interacting with humans, he has lost his ability to eat grass and be in touch with the natural world. Engaging with society means that he has lost his natural abilities to act in his own best faith, and has become a resource, similar to the gazelles he used to live with and the grass he used to consume.</p>
+
+<p>Social media and culture has done to the terminally online as what the prostitute has done to Enkidu - the terminally online are so oversocialized as to behave against their best interests and instead for the for the interests of those who have tamed them. They have lost the ability to touch and eat grass, just as Enkidu, and now work for the groups of people who they believe are their peers, yet who enslave them. Oversocialization is a modern form of control.</p>
+
+<p>When you’re too online, remember to touch some grass (maybe eat it too) and hydrate, as Enkidu did.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/11-23-2022/enkidu_and_eating_grass.html</guid>
+                <description>
+                    
+                    Social network oversocialization as a modern form of control
+                    
+                </description>
+                <pubDate>Wed, 23 Nov 2022 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Do you really like this anime?</title>
+                <link>https://blog.memes.moe/posts/07-11-2022/do_you_really_like_this_anime.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Do you really like anime? Or are you simply convincing yourself that you do? Are you sure, deep down, in your heart a fan of a certain show or is the majority of your enjoyment with the show a byproduct of your enjoyment associating with fans of that show? Can you really call yourself a real anime fan if your enjoyment of a particular series is predicated on other people’s enjoyment of that series and your interactions with them?</p>
+
+<p>In other words, how do you tell if you’re a fake anime fan or a real anime fan?</p>
+
+<p>If you cannot justify your enjoyment of a particular anime articulately and without needing the validation of others, are you really a fan? If you cannot imagine life without being part of the anime community and find that your enjoyment of anime is inseparable from the people you share it with, you might want to ask yourself whether you are in it for the right reasons.</p>
+
+<p>It’s not uncommon for people to enter into a community simply because it is popular or because they want to be accepted by others. In fact, this is often the reason why people get into anime in the first place. They see their friends or classmates watching it, they think it looks cool, and they want to be a part of the group. And there’s nothing wrong with that. But the problem arises when people don’t take the time to really understand what it is they’re watching and why they’re enjoying it.</p>
+
+<p>It’s easy to like something because it’s popular. It’s easy to like something because other people like it. But it’s not so easy to like something because you have thought about it deeply and have come to a genuine conclusion that you enjoy it. True enjoyment comes from a place of understanding and appreciation. It comes from looking at something and saying, “This is good.”</p>
+
+<p>Anime is a medium that is rich and deep. It has a lot to offer those who are willing to look for it. But many people don’t bother to look. They just consume whatever is popular at the moment and move on. They never take the time to appreciate the artistry, the story-telling, the characters, or the music. They never stop to think about why they’re enjoying it. They just enjoy it because it’s there and because everyone else is doing it.</p>
+
+<p>This is not to say that you can’t enjoy anime if you don’t understand it. You can still enjoy the show even if you don’t get all the references or in-jokes. But your enjoyment will be shallow. It will be based on the surface level rather than the deep, abiding love that comes from truly understanding and appreciating something.</p>
+
+<p>So, how can you tell if you’re a fake anime fan or a real anime fan? The answer is simple: ask yourself why you like anime. If your answer is anything other than, “I like it because it’s cool” or “I like it because my friends watch it,” then you are probably a real fan. If, on the other hand, you find that you cannot answer the question without reference to other people or to popularity, then you might want to reconsider your fandom.</p>
+
+<p>This blog post was generated with GPT-3.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/07-11-2022/do_you_really_like_this_anime.html</guid>
+                <description>
+                    
+                    Or are you just convincing yourself you do?
+                    
+                </description>
+                <pubDate>Mon, 11 Jul 2022 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Touch grass</title>
+                <link>https://blog.memes.moe/posts/09-17-2021/touch_grass.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>I’ve touched grasses at the top of mountains, where only goats and marmots live. I’ve touched the grasses under the sea, with all sorts of different colors and textures. I’ve touched luscious grasses from the most fertile of valleys, full of greenery and life.</p>
+
+<p>I’ve touched dry, arid grasses from the most desolate of deserts, devoid of water and blown around by the harshest of winds. I’ve touched grass from all over, different cities, states, countries. I’ve felt their texture around my toes, the blades around my fingertips.</p>
+
+<p>I can tell the difference easily between the blades of Kentucky bluegrass, tall fescue, and zoysia growing in the field not only by color and feel, but by taste. I’ve eaten dandelion, clover, and other grass like plants that grow with the grass.</p>
+
+<p>I’ve plucked wild mushrooms from the grass, sauteed them up, and eaten them. Don’t tell me to touch grass, tell yourself to touch grass. And don’t just touch the grass. You have to be one with the grass, like me.</p>
+
+<p>You have to understand the grass, be the grass, put yourself in the grass’ roots and feel what the grass feels. I’ve touched grass in many different places, in different seasons, when the grass is tall, when it’s short, when it’s green, when it’s brown. I’ve touched grass while it’s growing, I’ve touched it when it’s dead, I’ve touched it at the beginning of its life and at the end of it’s life.</p>
+
+<p>I’ve touched grass with all kinds of animals, I’ve touched grass on land with no animals, I’ve touched it on land with large amounts of animals, I’ve touched it with small amounts of animals, I’ve touched it on land with no animals at all.</p>
+
+<p>I’ve touched grass with different types of people, I’ve touched grass while riding in cars and planes, I’ve touched grass when walking in the snow. I’ve touched it with people I don’t even know, I’ve touched it with people I know, I’ve touched it when alone, I’ve touched it with my family, I’ve touched it with my friends, and I’ve touched it with strangers.</p>
+
+<p>I’ve touched grass on land with different types of people. I’ve touched it while playing sports. I’ve touched it when playing sports and I’ve touched it when not playing sports. I’ve touched it with the very young, I’ve touched it with the very old.</p>
+
+<p>I’ve touched grass in the mountains, and grass in the plains, grass in the oceans, grass in the woods, grass in the snow, grass in the water, grass in the air. I’ve touched grass in a lot of different places, in a lot of different seasons, and different times of the day.</p>
+
+<p>I’ve touched grass while the sun is high, and I’ve touched grass when the sun is low. I’ve touched it in the snow, when the sun is shining, when the sun is going down, when the sun is setting, when the sun is rising.</p>
+
+<p>I’ve touched grass in the daylight, I’ve touched grass in the night, I’ve touched grass when it’s windy, when it’s not windy, when it’s cold, when it’s hot.</p>
+
+<p>I’ve touched grass in the morning, when the sun is shining brightly, when it’s fading, when it’s at sunset.</p>
+
+<p>I’ve touched grass in the spring, when it’s springtime. I’ve touched grass in the summer, when it’s summer. I’ve touched grass in the fall, when it’s fall. I’ve touched grass in the winter, when it’s winter.</p>
+
+<p>I’ve touched grass while it’s green, I’ve touched grass when it’s brown. I’ve touched grass when it’s growing, I’ve touched grass when it’s dead. I’ve touched grass at the beginning of its life, and I’ve touched it at the end of its life.</p>
+
+<p>And I’ve touched it, felt it, understood it, loved it, and hated it.</p>
+
+<p>I’ve touched grass.</p>
+
+<p>There you go.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-17-2021/touch_grass.html</guid>
+                <description>
+                    
+                    I have touched a lot of grass
+                    
+                </description>
+                <pubDate>Fri, 17 Sep 2021 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Anime and the lowest common denominator</title>
+                <link>https://blog.memes.moe/posts/05-08-2020/anime-and-the-lowest-common-denominator.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Certain activities attract certain stereotypes of people. For instance, the main demographic of fishermen tend to be older men who happen to reside in more rural areas. This is not an accident, but rather on purpose. To be able to fish, you require adequate strength, possess the ability to drive yourself, the willingness to be cut and injured, and to be near water which can support wildlife, not something you usually find in large cities. The requirements for participating in this activity select the participants of that activity, as for those individuals the activity has less friction than other activities. It would be difficult to get into fishing if you lived in the Mojave Desert.</p>
+
+<p>I think that the amount of friction preventing or allowing an individual from performing an action drastically affects the likelihood of that action being taken by the individual. Take two people - Alice and Bob. Alice has no tools in her kitchen, while Bob has a fully stocked fridge and all the tools he needs. Bob will be more likely to cook dinner than Alice given all other factors are relatively equal. For Bob, cooking dinner is a simple task as his environment has been set up for less friction for him to cook. However, for Alice, she would have to make trips to the supermarket to purchase tools. The additional mental effort of preparing introduces friction between Alice and her kitchen, making her less likely to use it as much as Bob.</p>
+
+<p>In a sense, the anime community is the same way. The friction of joining the anime community has degraded to a certain point at which anyone can just get into it. It’s never been an easier time to be an anime fan and to be involved in the anime community. Anyone can do it.</p>
+
+<p>And therein lies the issue, that anyone can do it. If there are too many fishermen on a pier, the lines get tangled up. When you cast, you have to worry about hitting people with the line. The pier bans overhead casting and forces participants to underhand cast only. The fish cleaning stations form lines, while the fish rot. The high barrier to entry of fishing ensures the level of participants be enough to ensure each participant is able to enjoy themselves and not have issues doing what they enjoy. The gate is kept by the size of the pier, the dangers of cliff fishing, the price of fishing gear, the parking in the area, and other physical factors that prevent the sport from being too crowded.</p>
+
+<p>Online spaces do not have these physical limitations. There are no limits on how many people can enter. You can’t go to Anitwitter and immediately see that the pier is crowded. But it is, and the impacts can be felt. When the field is so crowded, the most vocal and ideologically aggressive dominate the conversation, and everyone else is kicked out of the deep end of the pier to the shallows. Yet, the most vocal have nothing to contribute, so they converse with each other.</p>
+
+<p>This is the lowest common denominator. Online anime culture spaces, due to their own popularity, ease of access, and lack of gatekeeping, have filled themselves with the lowest common denominator, whose ideology takes over as the dominant thought within the space.</p>
+
+<p>While online spaces do not have physical limitations and can scale to as much as technology will allow, there is a limit to the amount of exposure each single participant in the space can get. Each person can only consume as much media as their time allows. If they permit themselves to consume and propagate content from the lowest common denominator, they will understand nothing but the lowest common denominator. Those who have isolated themselves from this ideology will move to other piers, or take up other sports such as hiking or golf, as the friction from entering the space will have increased due to difference between their perception of the hobby versus the image of the hobby shouted from the lowest common denominator.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/05-08-2020/anime-and-the-lowest-common-denominator.html</guid>
+                <description>
+                    
+                    Gatekeeping keeps the pier from being too cluttered
+                    
+                </description>
+                <pubDate>Fri, 08 May 2020 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Nobody reads books anymore and that&apos;s a good thing</title>
+                <link>https://blog.memes.moe/posts/09-04-2018/books-are-deprecated.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Fewer and fewer people are reading books. By books, I mean fiction read for pleasure. You hear articles written all the time about how social media, the internet, TV, radio, telegraphs, and newspapers are ruining the attention span of young adults and how we’re all going to be like the wheelchair people in Wall-E. It seems like every other day another article comes out in the Washington Post or Buzzfeed about how millennials are killing books.</p>
+
+<p>Why do we think reading books for fun is important? It’s not.</p>
+
+<p>In 2018, we have better things to do with our time than read books. The people who drool and circlejerk over “classic” literature fail to realize that as humans have progressed as a society, we’ve grown better at doing stuff. We’re better at running, we’re better at cooking, we’re better at music, and we’re just smarter and superior overall to those hundreds of years ago. A modern high school sports team would have destroyed the competition in the ancient Olympics. We’ve developed technologies and activities that are much more efficient and provide a better return on time investment than those we’ve had in the past.</p>
+
+<p>1984, the book of edgy high schoolers across America, teaches us about the dangers of tyranny while delivering a thriller story. It’s a wonderful book. Just like any edgy high schooler, I too enjoyed the book when I was in high school. It taught the 16 year old me about politics, society, and people. However, it took a few hours and a few hundred pages. High schoolers now can just watch a 3 minute Youtube video about the topics and themes of 1984 and be just as educated.</p>
+
+<p>With the internet, anyone (like me!) can have a voice. Anyone can put anything out on the internet for anyone to read. Books are subject to the whims of the market, the editors, the publishing company, the formats in which they must adhere to, and other miscellaneous factors that ensure maximum readership and profit. Getting a book published is difficult, way more difficult than publishing on Tumblr or hosting your own site on Github for free. We use this self-selection process to say “wow, books must be impressive since they got published.” This is erroneous reasoning.</p>
+
+<p>With the global market of ideas that is the internet, books are simply failing to compete. There’s more interesting stuff in the world than there is in the non-fiction aisle of the library, and with the internet, writings about those things and events can be easily accessed by the common man to consume. These news articles, opinion pieces, blogposts, even social media commentaries are often more concise, provide a better return on investment, and are simply more interesting than some book that became famous because the printing press wasn’t invented yet.</p>
+
+<p>There’s nothing wrong with reading books for pleasure. Getting immersed in a book is fun, and a good book can be a comfortable way to spend an afternoon. But compared to modern media formats, the opportunity cost of reading a book just isn’t very worth it.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-04-2018/books-are-deprecated.html</guid>
+                <description>
+                    
+                    Books are an outdated medium and cannot compete in the modern arena of opinions.
+                    
+                </description>
+                <pubDate>Tue, 04 Sep 2018 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Longevity of Discord Communities</title>
+                <link>https://blog.memes.moe/posts/08-20-2018/longevity-of-discord-communities.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Before Discord, there was something else that many on the internet used. IRC or Internet Relay Chat is a protocol upon which numerous networks built their communities. IRC culture is vastly different from Discord culture. In IRC, the user connects to one or multiple <strong>IRC servers</strong>. Anyone can then create a <strong>channel</strong> on these IRC servers, or join a channel that someone else has created. These <strong>channels</strong> contain the <strong>community</strong> that the user wishes to join. Whoever created these channels were the owners of the channels, with the IRC protocol supporting an extensive permissions and ban system. IRC does not support GIFs or emojis. It doesn’t support voice chat. It doesn’t work well with mobile. If you lose connection to the IRC server, you lose out on that conversation. If you wanted something, you had to write it yourself. Being completely textual, even logging in required some form of computer competency.</p>
+
+<p>IRC was created 30 years ago, and many still use it and the network of servers set up almost three decades ago.</p>
+
+<h3 id="why-discords-model-sucks">Why Discord’s model sucks</h3>
+
+<p>Many IRC communities have persisted through decades. I’m not talking about IRC servers, but rather IRC channels. The same will not be said for Discord.</p>
+
+<p>While many argue that the main problem with Discord’s ability to retain long running communities can be traced due to the fact that it’s an application run by a corporation rather than a protocol people can write their own stuff for, there’s a large factor to the fast decline of Discord communities that many do not consider.</p>
+
+<p>A user joins a Discord <strong>server</strong>, which is created by a person. This is the <strong>community</strong> that the user joins. This server can have many <strong>channels</strong>, each of which may have a different topic. In IRC, the user joins a <strong>channel</strong> where the <strong>community</strong> resides, while in Discord the user joins a <strong>server</strong> in which the <strong>community resides</strong>.</p>
+
+<p>Thus, the Discord <strong>community</strong> may have many different channels.</p>
+
+<h3 id="the-problem-with-too-many-channels-and-small-communities">The problem with too many channels and small communities</h3>
+
+<p>Large communities are probably fine.</p>
+
+<p>For small communities, the splitting of the chatrooms into different channels leads itself to the problem that most of these channels are not used. The user sees them not being used and thinks that the server is dead. There’s simply not enough conversation to allow users to join in.</p>
+
+<p>Imagine 40 strangers living in a mansion with 40 rooms. Most people are going to stick to their own room.
+Imagine 40 strangers living in a single house. They’ll be forced to talk to each other, or they can leave.</p>
+
+<p>There’s just not enough conversation in a small community to justify the number of channels they have. Most Discord server owners don’t realize this, and they create a crapload of channels that nobody except a few use once in a while. Users don’t get to know each other. While there may be several hundred users in a server, it may rarely see conversation.</p>
+
+<p>IRC is different. A community is one channel. You either talk or you watch people talk, or you get out. It takes active effort to connect to an IRC channel, while on Discord when you’re on a server, you connect there forever automatically.</p>
+
+<p>By condensing the space, users in IRC are forced to interact with each other, which forces lasting bonds.</p>
+
+<p>This is why IRC communities last decades, while Discord communities will not.</p>
+
+<p>There’s a lot of other problems with Discord’s chat model, but I think this is one that people don’t often realize, and is one of the main contributors towards dead communities.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/08-20-2018/longevity-of-discord-communities.html</guid>
+                <description>
+                    
+                    Discord communities have a very short lifespan
+                    
+                </description>
+                <pubDate>Mon, 20 Aug 2018 20:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Come check out our panels at Fanimecon</title>
+                <link>https://blog.memes.moe/posts/05-12-2018/check-out-our-panel-at-fanimecon.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>We are hosting two panels at Fanimecon this year! We are hosting our typical Animemes talk on Sunday May 27th from 11pm-1am, but we would like to invite you to our brand new panel: Keep Anime Anime - Whitewashing of Anime Culture.</p>
+
+<p>In today’s globalized world, access is the name of the game. Companies tout statistics bragging about floating balloon with internet access to server rural communities in Australia, or brag about how they’ve brought electricity to much of India. However, is access always a good thing? Sure, globalism has provided great humanitarian benefits to much of the world, but should the same apply for cultures?</p>
+
+<p>A few years ago, GamerGate happened. Whether you as a person are “for” or “against” GamerGate, there is no denying that it not only changed the culture of video games, but also the political atmosphere. Suddenly, it was cool to reject the mainstream. Games were originally designed for the basement neckbeard, fingers coated with cheetos dust while downing countless bottles of mountain dew. Gamers were bullied for being uncool, and they were ostracized and often looked down upon for not enjoying mainstream hobbies such as football or baseball. Now as video games are easily accessible and e-sports are streamed on ESPN, the formerly bullied feel as if their culture has been appropriated by the same audiences who shuuned it in the past.</p>
+
+<p>While GamerGate’s claims of culture appropriation are valid or not, cultural appropriation is a real thing. Sure, if we think of ourselves as cultured by avoiding Sushirrito and going to the Real Sushi(tm) place next door, conveniently ignoring that the workers speak Spanish and the owners speak Cantonese. We know quinoa is bad for the poor South American farmers who can’t afford to eat their own traditional food anymore, but a few articles about the health benefits of the crunchy grain and Kimberly’s incessant ranting about how her hot new yoga instructor thinks it’ll make people live forever will make us change our mind.</p>
+
+<p>Companies such as Crunchyroll enjoy bragging about how many “overseas fans” they’re connecting to the “industry.” They make broad claims about how overseas money is helping the “industry” while they themselves make big bucks from subscribers. Now, we even see their names on the start and ending credits.</p>
+
+<p>More and more people have access to Japanese animation than ever before. Come to our panel to learn why this may not be a good thing.</p>
+
+<p>Sunday, May 27th 12am-1am (Saturday Midnight/Sunday Morning)</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/05-12-2018/check-out-our-panel-at-fanimecon.html</guid>
+                <description>
+                    
+                    Featuring a brand new panel, Whitewashing of Anime Culture
+                    
+                </description>
+                <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>On the excellence of Wake Up, Girls! Shin Shou</title>
+                <link>https://blog.memes.moe/posts/02-06-2018/wake-up-girls-shin-shou.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Once in a lifetime you’ll come across an anime that truly captures the history and cultural distinctions of the modern world the way a person can subjectively perceive it through our guided field of perspective. I have to admit, I had my doubts when I first learned of this anime. After all, Wake Up Girls? Will this anime even be good? How ignorant was I to even have these thoughts. Little did I know I was about to indulge in what may have been the best 25 minutes of my life every single week. The anime starts out strong. The opening scenes enticed the audience with a captivating enigma. I was so taken aback from the next-generation animation that I almost didn’t even realize the underlying symbolism in the ongoing scenes. It wasn’t until my twenty sixth viewing of the anime’s first two episodes where I finally got my bearings together and was able to focus on the gripping and labyrinthine stratagem. The underlying analogy for 19th century dystopianism and the evangelical deviation of typical orthodoxy was enlightening to say the least. Just when I thought the anime could not get any better, the increasing conflict before the climax began in the last episode. I could not believe the complexity of the story as the main protagonist struggled with the everyday endeavors for a quintessential girl such as the consistent up-hill altercation of the fight against misogyny and the fiscal synergy of opposing interplanetary dynamisms. There I was, gripping to my chair as the conflict of the anime truly began. I am so enticed by the anime that I feel as if I am both practically and relatively apart of the anime. This is a special kind of high that not even the strongest of drugs can give you.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/02-06-2018/wake-up-girls-shin-shou.html</guid>
+                <description>
+                    
+                    Every anime aspires to be the Anime of the Year. Yet, there are not enough years to give to a certain anime.
+                    
+                </description>
+                <pubDate>Tue, 06 Feb 2018 15:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>We&apos;re having a panel at SacAnime!</title>
+                <link>https://blog.memes.moe/posts/12-18-2017/check-out-our-panel-at-sacanime.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><img src="https://i.imgur.com/BIgRkXM.png" alt="SacAnime18" /></p>
+
+<p>With the internet enabling more and more anime fans to share their love for anime every day, it becomes essential to understand the vehicles and devices underlying the global advancement of otaku culture. More specifically, we examine and critique the ways in which memes have shaped online as well as offline anime tastes, opinion, and dialogue. Join us as we talk anime, memes, and how they relate to you!</p>
+
+<p>We will present a brief history of memes in online fan culture. We will then transition that into the way online social networks as well as public forums have adopted memes in the context of anime. We plan to then explore how these memes have shaped and molded both the population as well as dialogue of the anime community. We will analyze case studies in which memes have greatly influenced specific anime fandoms and we will use our analysis to determine general ideas on how anime meme culture can describe the communities to which they belong.</p>
+
+<p>We hope that guests will walk away with an increased appreciation and awareness of meme culture in anime. Additionally, we wish that guests leaving this panel will gain an understanding in how to apply their knowledge of memes to ensure the health and stability of their own communities and micro-communities.</p>
+
+<p>Join us as we talk anime, memes, and you!</p>
+
+<p>Friday January 5th at 5:30pm at the Sacramento Convention Center room 317/318</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/12-18-2017/check-out-our-panel-at-sacanime.html</guid>
+                <description>
+                    
+                    What do you get when you cross anime with memes? Animemes! Explore the latest and greatest in anime meme production, proliferation, and consumption!
+                    
+                </description>
+                <pubDate>Mon, 18 Dec 2017 18:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>The Dollar Bubble Has Popped</title>
+                <link>https://blog.memes.moe/posts/12-07-2017/the-dollar-bubble-has-popped.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>On October 17, the price of a dollar was 0.000258 BTC.</p>
+
+<p>As of December 17th, 7:37am Pacific Time, the price of a dollar is 0.000059 BTC, the lowest the dollar has ever been. In fact, the dollar has lost almost 80% of its value over the last three to four months.</p>
+
+<p>That means you’ll need:</p>
+
+<ul>
+  <li>1.0 BTC or 16,500 USD to purchase a brand new 2017 Honda Civic LX (if you’re good at negotiating)</li>
+  <li>0.000148 BTC or 2.5 USD to purchase two McDoubles at McDonalds</li>
+  <li>0.058941 BTC or 999 USD to purchase the iPhone X</li>
+  <li>0.000410 BTC or 6.99 USD for a month’s worth of anime on Crunchyroll.com</li>
+</ul>
+
+<p>As you can see, it’s never been a worse time to purchase the USD, or any other currency. In fact, most of the world’s currencies have been losing their value to the BTC.</p>
+
+<p>The dollar bubble has popped, and it’s never been more unwise to buy in.</p>
+
+<p><strong>EDIT</strong> As of 08:25 PST the USD has fallen even more, to 0.000052 BTC/USD.</p>
+
+<p>That means you’ll need:</p>
+
+<p>1.0 BTC or 19,000 USD to purchase a brand new 2017 Toyota Camry (if you’re good at negotiating)</p>
+
+<p><strong>EDIT2</strong> As of 08:37 PST Coinbase’s trading site, GDAX, has crashed but not before the USD reached an even lower all time low at 0.00005 BTC.</p>
+
+<p>That means you’ll need:
+1.0 BTC or 20,000 USD to purchase a brand new 2017 Toyota Camry with options (if you’re good at negotiating)</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/12-07-2017/the-dollar-bubble-has-popped.html</guid>
+                <description>
+                    
+                    The Dollar (USD) has been declining in value quickly over the last couple of months. Is it still worth buying? No.
+                    
+                </description>
+                <pubDate>Thu, 07 Dec 2017 07:38:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Did Keijo!!!!!!!! Help Elect Donald Trump?</title>
+                <link>https://blog.memes.moe/posts/09-22-2016/did-keijo-help-elect-donald-trump.html</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><img src="https://cdn-images-1.medium.com/max/2000/1*Jmq0QRsmyqEzhkUiW-KDzw.png" alt="" /></p>
+
+<p>Nov. 9th, 2016 — thousands of people across America take to the streets to
+protest Trump’s victory over Hillary Clinton in the US presidential election.
+CNN, MSNBC, The Young Turks, The New York Times, FiveThirtyEight all with somber
+faces declare Trump to be the winner. Twitter and Facebook erupt with
+#NotMyPresident and the phrase “literally shaking” starts to trend. CBS depicts
+the thousands at the Hillary Clinton viewing party, all with sad faces, some
+crying, and others leaving. Meanwhile, an assistant pours Alex Jones another
+glass of champagne on national TV.</p>
+
+<h3 id="the-calm-before-the-storm">The calm before the storm</h3>
+
+<p>Let’s roll time back a few days. Nearly all the polls showed Clinton ahead, and
+whatever results depicted a Trump lead were tools of the alt-right and
+unscientific. The USC/LATimes poll was just a tools for measuring trends in
+voter preferences, and the IBD poll was funded by Republicans, and so should
+obviously be discredited.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*lbURelFAQxqxVzVeDSHD6g.png" alt="RCP Poll" />
+<em>RealClearPolitics shows only one poll predicting Trump to win the nomination</em></p>
+
+<p>Warriors vs Cavs? Rigged against Draymond Green. Cubs? Well baseball is most
+luck anyways. Brexit? That was an anomaly, and even then pollsters weren’t
+wrong, they were just misrepresented.<a href="http://elections.huffingtonpost.com/pollster/2016-general-election-trump-vs-clinton"> Huffpo had Clinton leading Trump in 99%
+of its simulations.
+</a>There
+was just no way that Trump would defeat Hillary Clinton. The media didn’t think
+he would win. The President didn’t think he would win. Facebook didn’t think he
+would win. Reddit didn’t think would win. George Soros didn’t think he would
+win. Julian Assange didn’t think he would win. Trump would never win, they said.</p>
+
+<p>And they were all wrong. America has proven itself to be more misogynistic,
+racist, and bigoted than anyone could have predicted it to be. We were all
+wrong. Literally Hitler had been elected into office.</p>
+
+<h3 id="what-is-keijo">What is <em>Keijo!!!!!!!!</em>??</h3>
+
+<p><em>Keijo!!!!!!!!</em> made its debut on Oct. 6, 2016. In the anime, Keijo is a
+fictional sport where scantily clad women attempt to push each other off
+floating platforms in a pool using nothing but their (very well animated and
+detailed) breasts and bums. <em>Keijo!!!!!!!!</em> tells the story of one girl<em>,
+*Kaminashi Nozomi, a 17 year old aspiring gymnast who has one goal: to become
+the richest Keijo athlete in the world. <a href="http://www.kotaku.co.uk/2016/10/11/girls-fight-with-their-bums-and-boobs-in-this-deplorable-new-anime">While we can simply write this anime
+off as just another misogynistic and deplorable attempt to objectify
+women</a>,
+the true objective of *Keijo!!!!!!!!</em> is far more sinister.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*qVTeHLKvBPxshRP08yr5hQ.jpeg" alt="" />
+<em>Some of the most racist and sexist states (Georgia, Mississippi, and Trump’s
+home state of New York) make up *Keijo!!!!!!!!</em>’s largest audiences.*</p>
+
+<p>The anime is available on the streaming service Crunchyroll in subtitled form
+only, and even if you don’t understand Japanese you’ll recognize that
+Kaminashi’s voice sounds out of the ordinary when in conversation with her
+fellow classmates. The Kansai accent is understood among anime aficionados to be
+a dialect used by hillbillies and the uneducated and Kaminashi sports her accent
+loudly and proudly. She’s unapologetic and unreserved about her brash manners
+and rural upbringing, unaware of the systemically racist mindset that she grew
+up with.</p>
+
+<h3 id="who-watches-this-crap">Who watches this crap?</h3>
+
+<p>Who is <em>Keijo!!!!!!!!</em> meant for? Some might say that it’s a show where guys get
+to perv on teenage anime girls (a concept deplorable by its own right).
+Advocates attempt to justify the existence of such a tasteless piece of garbage
+by claiming that <em>Keijo!!!!!!!!</em> represents feminism as it not only features a
+strong independent young woman who has her own dreams and inspirations, but
+passes the <a href="https://en.wikipedia.org/wiki/Bechdel_test">Bechdel test</a> easily and
+with flying colors.</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&#39;Keijo&#39; offers something many TV series and movies do not: a passing grade on the Bechdel test. via <a href="https://twitter.com/William__Hicks?ref_src=twsrc%5Etfw">@William__Hicks</a> <a href="https://t.co/MPhGkhrRVv">https://t.co/MPhGkhrRVv</a></p>&mdash; Heat Street (@heatstreet) <a href="https://twitter.com/heatstreet/status/786295145448804357?ref_src=twsrc%5Etfw">October 12, 2016</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>But are these really women who are interacting with women? How can such a sexist
+anime pass the Bechdel test, the paragon of litmus tests for feminist
+literature?</p>
+
+<p>Because Kaminashi Nozomi is not a female. She might look like one. She might be
+voiced by one. But Kaminashi Nozomi is not a woman. She does not represent all
+that women want. She does not represent the strong independent businesswoman or
+CEO. She does not represent the woman lawyer or the woman doctor. Rather,
+Kaminashi Nozomi is all that’s wrong with society, the <em>White Male.</em></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*nwDKUwiE0cPv0ORJCLb1zg.jpeg" alt="" />
+<em>Rural White Males show their support for a racist bigot</em></p>
+
+<h3 id="the-white-male">The White Male</h3>
+
+<p>The <em>White Male</em> is deplorable. That isn’t a question. The <em>Rural White Male</em>
+cares only about themselves. The <em>White Male</em> does things for themselves. The
+<em>White Male</em> dreams the American Dream, eventually hoping to make it big through
+competition and knocking people off the totem pole of society to squeeze their
+way up to the top. To the <em>White Male</em>, what matters is the end result, not how
+many they’ve oppressed to get there.</p>
+
+<p>And that is who Kaminashi Nozomi is. Keijo is not a sport where losers are
+treated well. It’s a sport where one quite literally sinks everyone else to be
+at the top. Other ‘girls’ in <em>Keijo!!!!!!!!</em> have dreams. They have aspirations.
+They have goals in life. Kaminashi’s goal? To get the money, regardless of the
+ambitions of others.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*58fOldWyuRI8NueUgW8kTw.jpeg" alt="" /></p>
+
+<p>Only a <em>White Male</em> would have such ambitions. Only a <em>White Male</em> would be ok
+with crushing the dreams of thousands of young kids in search of riches. Not a
+woman.</p>
+
+<blockquote>
+  <p>Kaminashi is not a woman. She’s a deplorable — a White Male.</p>
+</blockquote>
+
+<h3 id="signaling">Signaling</h3>
+
+<p><em>Keijo!!!!!!!!</em>’s main character is a bold signal to those on the alt-right. Do
+whatever you want to get to the top.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*LrA5EF-naiH6-qRHOpFcpA.jpeg" alt="" />
+<em>Ujibe-sensei (middle) sports a shirt with the symbol of 4chan, host to the
+infamous neo-Nazi forum /pol/ — politically incorrect, sending a direct message
+to the alt-right for bigotry and racism</em></p>
+
+<p>In fact, upon closer examination, Kaminashi appears to be Donald Trump. From the
+beginning, the press were all calling her a nobody. She was shunned and said to
+be of no importance. Reporters called her success a stroke of luck. Others
+laughed at her. She’s rude, uneducated, arrogant, and braggadocious.</p>
+
+<blockquote>
+  <p>Remember, Huffington Post had Trump polling at less than 1% for the Republican
+nomination in 2015.</p>
+</blockquote>
+
+<p>Kaminashi serves as a reminder to all White Males —it’s okay to push other
+people off the platform for personal gain. As long as you win in the end, that
+is. Do whatever you want.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*tEymZFW2CX5qwipLXtV1-g.jpeg" alt="" />
+<em>This Pepe the Frog meme, a tool of the alt-right, illustrates how men will do
+anything to achieve their sexist goals</em></p>
+
+<h3 id="the-bad-guys">The Bad Guys</h3>
+
+<p>As a male viewer, you are expected to identify with Kaminashi. <em>Keijo!!!!!!!!</em>
+*makes you sympathize with Kaminashi, a “poor rural girl coming from a poor
+rural community with large dreams”, without you realizing how regressive these
+“poor rural communities” tend to be in real life. You are led to believe in the
+White Male’s journey. You are led to believe that the Elites are the enemy.</p>
+
+<p>Throughout <em>Keijo!!!!!!!!</em>, Kaminashi stresses the importance of defeating those
+more Elite than her. But who are the Elites?</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*S9TLh76YCYeFNRvkGuYnVw.jpeg" alt="" />
+<em>Kawai from the Elite Class mentions how she prefers being “with the common
+people” rather than her smug group of stuck-ups.</em></p>
+
+<p>The Liberals, the Democrats, the Blue side. It’s the Liberal Elite who’s the
+enemy. You the White Male are the good guy, and them the Liberal Elite are the
+enemy. Not only that, you are made to believe that even if you are part of the
+Liberal Elite, it’s not too late to change. Red is good. Blue is bad. The
+Regular People (who in actuality are racist, bigoted, evil White Males) are
+preferable to the smugness of the Liberal Elite. The Regular People are honest
+workers, honest students, and honest people. You should strive to be a Regular
+Person. If you aren’t, you’re evil, evil, evil.</p>
+
+<p>Until you overthrow the Elite, that is. Then you’ll be a force of good again.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*mZVclBhq_PnCm2w1rIhzFQ.jpeg" alt="" />
+<em>Donald Trump wants to Drain The Swamp, only to replace it with his own ilk.</em></p>
+
+<p>Just like Donald, Kaminashi attempts to push the Liberal Elites off their golden
+pedestals by replacing them with the students from the regular class. You are
+led to believe that somehow, these Regular People would be more moral, more
+correct, more just than the evil, evil Liberal Elites that run the institution.
+You, who has been brainwashed into identifying with these Regular People,
+believe that even if you regress back into the position of a Liberal Elite
+you’ll still be a more honest and ethical person than anyone else. No, you are
+more honest and ethical because you took this journey.</p>
+
+<p><img src="https://i.imgur.com/AT0jTmd.jpg" alt="" />
+<em>Milo Yiannopoulos, infamous alt-right Nazi and pedohile holding a Keijo!!!!!!!! sign at a white power rally</em></p>
+
+<h3 id="the-fallout">The Fallout</h3>
+
+<p><a href="http://www.forbes.com/sites/laurenorsini/2016/01/13/crunchyroll-leads-by-example-the-future-of-streaming-video-is-niche/#fa16c317d9cd">As of January 2016, Crunchyroll had over 20 million
+accounts</a>.
+Over 75% of their viewers are millennials, the voters Hillary desperately tried
+to win over. <em>Keijo!!!!!!!!</em> is one of their most popular shows this Fall anime
+season.</p>
+
+<p>How many of them have been brainwashed? How many of them were deceived by
+<em>Keijo!!!!!!!!</em>, and either consciously or unconsciously decided to forgo the
+polls just this time? What part of the population was tricked by this
+deplorable, deplorable cartoon?</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*W0ZT1LtN_NosMtIiLrR9Bg.jpeg" alt="" /></p>
+
+<p><em>With such a small difference in the popular vote in certain battleground states,
+a piece of propaganda such as *Keijo!!!!!!!!</em> could have changed the winner of
+the election.*</p>
+
+<p>Unfortunately it will be impossible to know.</p>
+
+<p>There’s only one thing we can do as proper citizens of America who are against
+Islamophobia, homophobia, bigotry, fascism, and quite literally Nazis.</p>
+
+<p>Spread the word out. Retweet this article. Share it to your social justice
+minded friends. Go write to your representative today and ask them to ban
+<em>Keijo!!!!!!!!</em> from the internet in your state today. Contact <a href="http://www.crunchyroll.com/help?topic=contact">Crunchyroll
+</a>and tell them that this sort of
+bigotry will not be permitted in this country.</p>
+
+<p>We will not let <em>Keijo!!!!!!!!</em> ruin America any further.</p>
+
+<p>It’s time to take action.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/09-22-2016/did-keijo-help-elect-donald-trump.html</guid>
+                <description>
+                    
+                    The alt-right infiltration of anime disguises the plight of Rural White Males through cute anime girls.
+                    
+                </description>
+                <pubDate>Thu, 22 Sep 2016 12:00:00 +0000</pubDate>
+                <author>Cecil Sudo</author>
+            </item>
+        
+    
   </channel>
 </rss>

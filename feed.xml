@@ -1,21 +1,447 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Memes.moe</title>
+    <description>An in-depth exploration of modern memetics and internet culture</description>
+    <link>https://blog.memes.moe/</link>
+    <atom:link href="https://blog.memes.moe/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>AI and White Collar Work</title>
+        <description>&lt;p&gt;OpenAI recently released a ton of math problems that they spent, on average, three hours each solving with one of their latest (obviously unreleased) models. These are problems that humans have been unable to make progress on, or whose solutions they thought could not be improved upon, for decades. For instance, subquadratic 3SUM—while the gains are tiny, improving on what people thought was an unimprovable lower bound is extremely impressive. It’s on the order of voodoo magic, as 3SUM intuitively seems unsolvable in subquadratic time. OpenAI claims that they spent under three hours per problem, and that seems about right.&lt;/p&gt;
+
+&lt;p&gt;And academia is not reacting well. Imagine you’re a PhD student working on these problems, one of the brightest minds in the world. You’ve spent years trying to solve a problem, and you learn that an AI model took just three hours to one-shot it and surpass all the progress you’ve made on it. You learn that not only were you on the wrong track, but you had previously been on the right track and deviated from the correct path. Soul-crushing, really.&lt;/p&gt;
+
+&lt;p&gt;Which is why the math community is so strongly against it. While some of the broader math community’s concerns have merit (see Terence Tao’s concern that there’s too much math to consume), its reaction has largely been one of protectionism. Thousands of researchers, professors, and academics are concerned that their fields of research are being rendered useless and that their life’s work is meaningless. It’s understandable! You’ve spent years of your life toiling away at numbers and letters, graphs and equations! It’s frustrating.&lt;/p&gt;
+
+&lt;p&gt;But progress is progress! You cannot stop progress. And policing it is futile. This is the world you live in and the world that you will continue to experience. And it’s a good thing: who knows what future innovations a more efficient multiplication method could lead to? Suppose one day we discover a significantly more efficient algorithm for something that’s widely adopted. Think of how much energy we would save every time that routine runs anywhere in the world.&lt;/p&gt;
+
+&lt;p&gt;It’s really about jobs. Academics are concerned that they are losing their jobs, and they should be. But they should not mask that concern by treating the field of mathematics like some kind of hobby. If we are using public funding and other research grants to pay academics to discover things for the good of the public, we should expect some kind of return on that funding. We are not paying them to dilly-dally and indulge their own egos. We are paying them to make discoveries that benefit us all.&lt;/p&gt;
+
+&lt;p&gt;This pattern of AI replacing white-collar work is all too common. First, it came for the software engineers, as software engineers are paid very well in today’s industry. The cost of developing some crappy internal tool has essentially dropped to zero, when it used to cost a company a few junior software engineers’ salaries (which were still quite high). Now it’s coming for academics, because academics are also paid very well. And it makes sense! It’s the highest ROI you can get; automating a software engineer’s work or a professor’s work saves much more money than automating a barista’s.&lt;/p&gt;
+
+&lt;p&gt;There’s a disconnect between the kinds of jobs most people think will be AI’d away first and those that actually will be. The usual concern is that we’ll replace artists, Uber drivers, and truck drivers. But why do that? Self-driving cars, despite the progress we have made, are still in their infancy. And even if they do replace human drivers, is the token cost worth it? As of now, maybe not, but certainly in the future. But why deal with the real world, which has all sorts of obstacles popping up in the road, when we can deal in the abstract, in the realm of words or tokens, and automate away the high-paying jobs first?&lt;/p&gt;
+
+&lt;p&gt;But there’s no sympathy for white-collar jobs. Nobody cares if some rich software engineer gets laid off (unless it’s a game developer, in which case their whining on Twitter somehow gets amplified and treated differently from that of the thousands working on Microsoft Excel). They make $200k a year. Who cares? They’re fine. There’s nobody to really go to bat for them. And academics—what do the pesky nerds in the math department really do? Sure, people will fight to preserve jobs researching some endangered fish in the Nevada desert, but nobody cares about math. It’s boring nerd shit.&lt;/p&gt;
+
+&lt;p&gt;The real way to prevent yourself from being automated away is either to be on top of the AI (sell the AI and its product) or to be on the bottom, doing something that is not worth AI’ing away. Plumbing is one example; you cannot easily AI away plumbing because it requires hardware, and you are also dealing with unpredictable customers who don’t really know what they want. You can automate everything else away, but plumbing is something you would have to do manually. You can create better tools for plumbers, and perhaps in the future we will have robots, but in the end, that root will need to be cut away with an auger. It’s a much harder problem than theorizing about 3SUM.&lt;/p&gt;
+
+&lt;p&gt;I don’t think this is a bad thing. Plumbers can make good money. In the future, they may make more money. And that’s good! They deserve it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/10-07-2026/ai-and-white-collar-work.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/10-07-2026/ai-and-white-collar-work.html</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>You (Yes, You) Can Save Anime</title>
+        <description>&lt;p&gt;Pirating anime is essentially a solved problem and has been for a few years now.&lt;/p&gt;
+
+&lt;p&gt;Anime has always been pretty rife with piracy. From the LD and tape days to boutique fansub groups to rips of official simulcasts today, people have always pirated anime. But only in the last 5–10 years have we essentially solved piracy. That is to say, the amount we can pirate (of course, way more than we can actually consume) cannot keep up with the amount of storage a home user can accumulate.&lt;/p&gt;
+
+&lt;p&gt;A while ago, I ran the numbers using MAL’s API and got about 29k anime, counting movies, OVAs, series, etc. as separate entries. I think this is about as accurate as we can get. More importantly, it probably comes close to accounting for the media that’s actually available. There’s another project, &lt;a href=&quot;https://github.com/manami-project/anime-offline-database&quot;&gt;anime-offline-database&lt;/a&gt;, that aggregates multiple online databases and comes up with a total of about 41k entries. Keep in mind that this includes many movies, OVAs, and shorts, but let’s assume the worst case: around 530k distinct episodes of anime. I think this is a gross overestimate, and the real number is maybe 50% of that, but let’s use this number as an upper bound.&lt;/p&gt;
+
+&lt;p&gt;Currently, reasonable anime releases are about 1.3 GB per episode. It’s been this way for a few years—maybe ten or fifteen. Interestingly enough, thanks to codec improvements, file sizes have remained unchanged or are often smaller nowadays with HEVC. Older shows were often encoded and available in much smaller sizes because their resolution was much lower. For our exercise, we can assume an average file size of 1 GB per episode for easy math.&lt;/p&gt;
+
+&lt;p&gt;Thus, the total amount of anime that has been created in the world so far can be stored in 530 TB in the worst case. Realistically, collecting anything close to this would not be possible, given that not all anime is still available. I also don’t think those estimates are anywhere near correct. I’ll explain later.&lt;/p&gt;
+
+&lt;p&gt;530 TB of storage alone would cost around $5.3k at $10 per TB (using storage prices from before the AI shortage).&lt;/p&gt;
+
+&lt;p&gt;That sounds expensive, but this is a worst case. It is entirely reasonable for a normal consumer to pay that amount of money to have a repository of all anime. It’s something a normal person could have sitting in a single computer case next to their desk. Folks pay thousands of dollars every few years for graphics cards that depreciate faster than this. You do not need a data center or some fancy tape storage. You can have it on spinning disks. You don’t need some enterprise-level storage solution.&lt;/p&gt;
+
+&lt;p&gt;But let’s calculate the future of anime: there are roughly 150–250 new anime series every year. Add in a few movies and maybe OVAs, and, using back-of-the-napkin math, we have perhaps 350 cours of anime each year. That would be roughly 5–6 TB of anime per year. Since file sizes and episode runtimes have remained roughly stable, I don’t expect this to increase much. I think adding 6 TB a year to your storage is fairly reasonable. You can buy a 20–24 TB external backup drive and be set for about four years. Over the next 40 years, you’ll acquire a total of 200–240 TB of new anime under these assumptions, which is really not much.&lt;/p&gt;
+
+&lt;p&gt;Our current release cycle is also why I believe the estimate of 530 TB is incorrect. If the next 40 years of anime would require only 240 TB of storage, I think acquiring all previous anime in a reasonable format would require around that much or even less. Either way, it’s only a couple of thousand dollars.&lt;/p&gt;
+
+&lt;p&gt;For an upper bound of $10k, you can build an appliance right now that would store all anime from now until you die (or at least until I die). Realistically, I would estimate that it would cost only half that, given that so much anime is lost media, but we’re talking theoretically.&lt;/p&gt;
+
+&lt;p&gt;I think that this phenomenon would apply to other media too. Books especially are probably solved, but I’m not knowledgeable about movies or TV shows. It might be a few years before a layperson can, with a little bit of money, theoretically fit every piece of visual or audio media on their home PC.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/10-05-2026/anime-piracy-is-solved.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/10-05-2026/anime-piracy-is-solved.html</guid>
+      </item>
+    
+      <item>
+        <title>The Purpose of Work is its Product</title>
+        <description>&lt;p&gt;Watching the real-time industrialization of their nation, piloted by companies like Xiaomi and BYD, from a nation of dirt floors and bicycles to Roombas and electric cars within two decades gives a different perspective from the West, where potable water is expected and Flint, Michigan, is ridiculed. There was a recent news article with Chinese scientists featured as national heroes, contrasted with America, where our heroes are the products of the entertainment industry.&lt;/p&gt;
+
+&lt;p&gt;Within Chinese youth, the sentiment may be different, but there must be some sort of understanding within older Chinese millennials that engineers, scientists, and business leaders who emphasize technological growth (which is inherently anti-labor in the immediate short term) lead to products that better the lives of ordinary people. I don’t think that understanding is as prevalent in the current era amongst Western cultures that have taken things such as roads, running water, and household products for granted.&lt;/p&gt;
+
+&lt;p&gt;There is some sort of societal memory that producing things is still Good, and that a better way to produce Things with less Labor is to be celebrated. Because it is a nation where Things were, until recently, and still are for some non-insignificant portion of the population, not available compared to the West. The job loss is not as significant as the existence and affordability of a vacuum cleaner instead of a broom.&lt;/p&gt;
+
+&lt;p&gt;But I think we have largely forgotten about that here aside from a few industries. Household products required to survive comfortably are largely a solved problem. Most people in the US have access to a fridge, reliable transportation, running potable water, showers, a toilet, vacuum cleaners, and other things that we take for granted.&lt;/p&gt;
+
+&lt;p&gt;Thus, what’s the incentive for producing?&lt;/p&gt;
+
+&lt;p&gt;We now espouse the meaning of our work, of our jobs, of our personal satisfaction with what we do. We do things because we want to, or we need the money, or we think it makes the world a better place. We place the needs of the workers first and foremost without thinking of the product. Of course, this is a generalization, as the CEOs and the leaders of firms think about the product first and foremost, but the general worker does not. The salary system represents the intentional detachment between the worker and the product, amortizing the risk amongst the employees. Sure, we may have layoffs and stock options and tips and other performance-based incentives, but largely the individual employee’s incentives do not match.&lt;/p&gt;
+
+&lt;p&gt;Thus, when AI comes along and threatens those things, we as individual employees of the firm are concerned. Technology has always been, economically, a way to produce more given the constraints of labor and capital, and for white-collar workers, AI looks to be a way to accelerate that graph asymptotically whilst demand remains constrained. Not a great place for the labor side of the equation, to be quite fair.&lt;/p&gt;
+
+&lt;p&gt;In the West - and within younger Chinese who were born with cell phones in their hands - I’m sure that this production seems to be at the expense of the Worker. However, to older folks across the pond, it can only be seen as something extraordinary.&lt;/p&gt;
+
+&lt;p&gt;You grow up sweeping dirt floors and now your Xiaomi automatically maps out your room and cleans it. You grow up not having access to knowledge and now you can ask your phone anything and it can give you the answer. It’s nothing but a miracle. No wonder you embrace AI. Of course you would want agents; work is an act of suffering. Yet you ask your American friend and he or she loves his work and is afraid AI will replace him. You are afraid that your job may be in danger too, but you order your bowl of noodles for 14 yuan, it arrives in 20 minutes from a self-driving, AI-powered delivery robot, and you remember how you no longer need to boil your water and knead your dough from scratch.&lt;/p&gt;
+
+&lt;p&gt;I think we in the West need to remember that the product of our work is important too. Societies that still have vivid cultural memories of material scarcity are more likely to view automation as an opportunity for abundance rather than job preservation.&lt;/p&gt;
+
+&lt;p&gt;We are competing on a global level. If BYD makes better cars than Ford, they will eat our lunch no matter how many barriers we put up. And those barriers are Not Good for us. If BYD makes a better car, why should we put up with an inferior Ford?&lt;/p&gt;
+
+&lt;p&gt;I personally believe there are opportunities to innovate. There are always more features you can put in a car, and we should accelerate our production at the expense of labor. There are things that we can do in 2026 that would’ve been unthinkable in 2025, and reaping the fruits of that progress will be beneficial for our nation in the long run. A decade ago, coal miners were told to learn to code, but now, in the abundance of both cheap solar and cheap code, there must be something greater that coders, designers, engineers, artists, bean counters, and other people who work their minds can do that would lead to a society with more abundance.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/09-26-2026/purpose-of-work.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/09-26-2026/purpose-of-work.html</guid>
+      </item>
+    
+      <item>
+        <title>Just ask for things!</title>
+        <description>&lt;p&gt;A while ago, I saw &lt;a href=&quot;https://nohello.net/en/&quot;&gt;this page&lt;/a&gt; emphasizing the importance of bundling your intent with your message for professional communication. Please give it a read—it’s a very important concept for the workplace. I deeply dislike it when people simply say “Hi” without including the context of their message.&lt;/p&gt;
+
+&lt;p&gt;Recently, I’ve started applying this concept to personal messages too. Asynchronous communication is hard, round-trip times are long, and text is an extremely lossy medium for communicating intent if you aren’t used to it. If you message me, please let me know the intent of your communication in the first sentence instead of being wishy-washy.&lt;/p&gt;
+
+&lt;p&gt;If you want something from me but think it might be too much, just ask! Perhaps it’s the result of working in a professional environment, but I’m much happier being asked directly for something than having someone socially engineer me into thinking it was my own idea to ask if they needed it. Time is valuable.&lt;/p&gt;
+
+&lt;p&gt;Also, provide as much information as possible! Please don’t make people ask you for details. Put everything into one message as concisely as you can.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Hi! Can you help me with this?”&lt;br /&gt;
+“Can I get some details?”&lt;br /&gt;
+“Oh yeah… X, Y, Z.”&lt;br /&gt;
+“Yes/No”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;vs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Hi! Can you help me do X on Y at Z?”&lt;br /&gt;
+“Yes/No”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t waste time! Your life will be much better if you do this, and people will appreciate it.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your attention to this matter.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/07-06-2026/just-ask.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/07-06-2026/just-ask.html</guid>
+      </item>
+    
+      <item>
+        <title>Koi Suru Fortune Cookie by AKB48</title>
+        <description>&lt;p&gt;In August of 2013, popular idol group AKB48 released their 32nd single, “Koi Suru Fortune Cookie” (恋するフォーチュンクッキー, &lt;em&gt;Koisuru Fōchunkukkī&lt;/em&gt;; “The Fall-in-Love Fortune Cookie”), or better known as &lt;em&gt;Fortune Cookie in Love&lt;/em&gt; (I don’t think I’ve ever heard it called “The Fall-in-Love Fortune Cookie”). Over the next few years and into the next decade, it would become one of their more popular songs, even being remixed into some of the jingles for the Tokyo Metro. The music video would soon be released, a gargantuan performance involving thousands of extras and taking place in front of Hakata Station. The joyous, upbeat aspect of &lt;em&gt;Koi Suru Fortune Cookie&lt;/em&gt; attracted the eyes of millions and gradually became one of their best-known songs alongside &lt;em&gt;Heavy Rotation&lt;/em&gt;. You’ve probably heard it somewhere if you’re a weeaboo.&lt;/p&gt;
+
+&lt;p&gt;I’ve heard it hundreds of times!&lt;/p&gt;
+
+&lt;p&gt;One of the quirks of &lt;em&gt;Koi Suru Fortune Cookie&lt;/em&gt; is the opener. They had a black DJ introduce them (who the heck was this guy??), which was not uncommon for many pop songs at the time. However, the lyrics have always stuck with me.&lt;/p&gt;
+
+&lt;p&gt;The guy goes:&lt;/p&gt;
+
+&lt;p&gt;おい日本のみんな、聞こえてるか？&lt;/p&gt;
+
+&lt;p&gt;What’s up Japan? Can you hear me?&lt;/p&gt;
+
+&lt;p&gt;最近日本は元気無いって？&lt;/p&gt;
+
+&lt;p&gt;Is life gettin’ you down?&lt;/p&gt;
+
+&lt;p&gt;カネがない、仕事がキビシイ、&lt;/p&gt;
+
+&lt;p&gt;No money, no job,&lt;/p&gt;
+
+&lt;p&gt;イマイチなニュースばっかりだもんな！&lt;/p&gt;
+
+&lt;p&gt;Too much bad news?&lt;/p&gt;
+
+&lt;p&gt;でもクヨクヨしててもしょうがないだろ？&lt;/p&gt;
+
+&lt;p&gt;Well, there’s no reason to be down.&lt;/p&gt;
+
+&lt;p&gt;いまは立ち上がって踊るのさ！&lt;/p&gt;
+
+&lt;p&gt;It’s time to get up!&lt;/p&gt;
+
+&lt;p&gt;AKB48から、オマエのテンションアガりまくる、最高にホットな新曲だ！&lt;/p&gt;
+
+&lt;p&gt;We have a hot new song from AKB48 to make you feel good!&lt;/p&gt;
+
+&lt;p&gt;「恋するフォーチュンクッキー」！！！&lt;/p&gt;
+
+&lt;p&gt;“Koisuru Fortune Cookie.”&lt;/p&gt;
+
+&lt;p&gt;踊れ、ニッポンよ&lt;/p&gt;
+
+&lt;p&gt;So dance, Japan!&lt;/p&gt;
+
+&lt;p&gt;踊り狂っちまえよ！&lt;/p&gt;
+
+&lt;p&gt;Crazy!&lt;/p&gt;
+
+&lt;p&gt;To a native English speaker, it sounds like stage banter. The gentleman is asking how you’re doing! Are you feeling down? Does your life suck? Well, AKB48 is going to cheer you up! Let’s get ready for AKB48! It’s just another introduction meant to hype you up, to set the stage for a cool performance. And that’s what I always assumed they were talking about, but I recently took it upon myself to go through the JP subs, which read a bit differently. I’m not sure if the translation was first written in JP or EN, but the JP subs are more directed.&lt;/p&gt;
+
+&lt;p&gt;Instead of addressing &lt;em&gt;you&lt;/em&gt;, the audience, they address &lt;em&gt;you&lt;/em&gt;, a citizen of Japan. Or more specifically, the people of Japan. The second line isn’t asking &lt;em&gt;you&lt;/em&gt; as a viewer how down you are, but is more specifically asking about the national spirit of Japan itself. The rest of the introduction becomes a plea to the people and nation, with the context being societal problems of no money, no jobs, and terrible news, and how AKB is here to save the day.&lt;/p&gt;
+
+&lt;p&gt;While the EN listener thinks it’s a general “how’s it going, audience?” the JP reader gets a different picture; the scene is bleak, the nation is in stagnation, but here we are. The music video itself, with its thousands of people in the streets of Hakata, further exposes this concept; the people of Japan are dancing as the fortune cookie of love is going to change the national outlook.&lt;/p&gt;
+
+&lt;p&gt;And I don’t think this is a coincidence. What sounds like a catchy pop song to Westerners is a call to changing the fortune of the country.&lt;/p&gt;
+
+&lt;p&gt;To understand the background, we have to start in the ’70s and ’80s. A brief history lesson:&lt;/p&gt;
+
+&lt;p&gt;In 1985, the Plaza Accord was signed, which intentionally devalued the dollar and led to rapid yen appreciation. The Bank of Japan implemented monetary easing, leading to cheap credit. Over the next few years, speculation was rampant, and land and home values soared. The stock market could only go up! The national sentiment was great! It led to a culmination in ‘89, where the Nikkei peaked at an all-time high… for the next 35 years. Over the next year, the BoJ would drastically increase interest rates, tanking the Nikkei to about half of its value. The optimism of the bubble economy ground to a halt. Banks failed, hiring stopped, and the economy slowed down. The first lost decade (it was really only half a decade, kind of) kicked Japan in the balls. Worse yet, in ‘95, the national sentiment became grimmer after an earthquake and the Tokyo Sarin Gas Attack. The Nikkei would not return to its 1989 level until 2024.&lt;/p&gt;
+
+&lt;p&gt;However, in ‘96, temporary relief seemed to appear on the horizon. Due to banks stabilizing and increased exports, a brief moment of optimism shone through the economic downturn. Then, 1997? Thailand happened, and the Asian Financial Crisis, exacerbated by IMF shenanigans. Contagion quickly hit all the Asian economies, and Japan was not spared. A part two of the lost decade had hit the nation. Banks started to fail, the government basically bailed them out, and in ‘99, the BoJ basically gave up and basically made money free to borrow.&lt;/p&gt;
+
+&lt;p&gt;The ’90s were not a great time. One of my other theories for why there was so much grimdark post-apocalypse slop anime produced during this time was the post-bubble economy and the negative vision of the future.&lt;/p&gt;
+
+&lt;p&gt;In the ’00s, hope was rising. The economy started growing again, albeit slowly. Demand for Japanese machinery and electronics gave hope to the market. Sony and other Japanese tech giants seemed like they were doing well. And then, wham, ‘08 happened.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot of politicking going around at this point, but GDP was in the dumps. It was so over. But in December 2012, a man named Shinzo Abe got elected.&lt;/p&gt;
+
+&lt;p&gt;Abe had a new vision: Abenomics. It consisted of three parts: aggressive monetary policy (really, easing), flexible fiscal policy (spend money on bridges to nowhere), and structural reform (putting women and old people to work). And somehow, it kind of worked in the end. However, Abenomics emphasized one pivotal point: Japan would not only have to revamp its economics, but also have to reimagine the optimism that would allow it to achieve its economic goals. It wasn’t enough to just set policy; Abenomics had to set expectations.&lt;/p&gt;
+
+&lt;p&gt;The people would have to believe in and look toward a better future. If people believed that the future would be better, they would manifest it. It’s Japan’s self-fulfilling prophecy, a national version of Keynesian expectations. More specifically, the cycle went like this: higher expectations for the economy -&amp;gt; more spending -&amp;gt; more growth -&amp;gt; higher expectations for the economy -&amp;gt; … It wasn’t enough that the economy should change, but rather that the behaviors of individuals in the nation should change.&lt;/p&gt;
+
+&lt;p&gt;The music video presents the AKBs in front of a giant parade, dancing in front of Hakata Station with thousands of onlookers. They’re not on some grand stage; they’re alongside ordinary people. The smiles are contagious. The music video pans to footage of regular people. Schoolchildren, office workers, families, commuters, tourists, police officers, companies, and government agencies all start to smile and dance. The message is to smile and join them! TV crews are in the background, everyone jiving and smiling, broadcasting the message throughout the nation.&lt;/p&gt;
+
+&lt;p&gt;“To capture good luck, put a smile on your face.”&lt;/p&gt;
+
+&lt;p&gt;“Make the fortune of tomorrow better than today.”&lt;/p&gt;
+
+&lt;p&gt;Following 30 years of continuously being kicked down by foreign currency manipulation, contagion, natural disasters, and economic depressions, Japan finally had a chance to reinvent itself. &lt;em&gt;Koi Suru Fortune Cookie&lt;/em&gt; asked the audience to “break the shell” for something even “God wouldn’t know!” and for us not to take it negatively. It’s practically a song of national revitalization, spurring the listeners to do what? Generate economic value by smiling more.&lt;/p&gt;
+
+&lt;p&gt;Abenomics:&lt;/p&gt;
+
+&lt;p&gt;Optimism
+-&amp;gt; Spending
+-&amp;gt; Investment
+-&amp;gt; Growth
+-&amp;gt; More optimism&lt;/p&gt;
+
+&lt;p&gt;Koi Suru Fortune Cookie:&lt;/p&gt;
+
+&lt;p&gt;Smile
+-&amp;gt; Capture good luck
+-&amp;gt; Others join in
+-&amp;gt; Tomorrow becomes better
+-&amp;gt; More smiles&lt;/p&gt;
+
+&lt;p&gt;I have listened to this song hundreds of times without realizing what it was really about. It’s not just a love song! It’s more than a graduation song! It’s something greater - a call to a better vision of the future by the citizens of the nation. I think that’s partially why it’s so popular: it’s a song that manages to capture the sentiments and zeitgeist of the era. It’s no wonder this became one of their best-known songs! It spurred a huge trend and became a nationwide dance phenomenon for a reason. Smile, for things will get better! Understanding the song from that perspective makes me appreciate it just a bit more.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/06-29-2026/koi-suru-fortune-cookie.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/06-29-2026/koi-suru-fortune-cookie.html</guid>
+      </item>
+    
+      <item>
+        <title>Beef Wellington &amp; The UK</title>
+        <description>&lt;p&gt;The Beef Wellington is a dish that’s notoriously difficult to make. It consists of a beef tenderloin in the center, a mushroom layer on top of that (sometimes with prosciutto or other intermediate layers as well), and puff pastry on the outside. The difficulty in cooking the dish lies in the heat control and guesswork required to cook the protein to exactly medium-rare while also not overcooking the puff pastry and burning it.&lt;/p&gt;
+
+&lt;p&gt;Out of all the recipes out there, hardly any is worse than Beef Wellington. I can’t think of any other dish where the individual components, cooked with minimal effort, taste better than their combination.&lt;/p&gt;
+
+&lt;p&gt;It’s a pointless dish. A beef tenderloin tastes amazing by itself with just a little bit of seasoning. Mushrooms, sautéed, baked, cooked with just a tiny bit of oil, or even grilled, taste amazing. And puff pastry is great on its own as well.&lt;/p&gt;
+
+&lt;p&gt;Put together, they don’t add anything to each other. Beef Wellington consists of completely non-complementary foods smashed together and presented on a plate. Yet we are supposed to pretend that it’s some kind of high-class dish, a masterpiece! It’s terrible!&lt;/p&gt;
+
+&lt;p&gt;In a way, Beef Wellington reflects the national ethos of Britain itself: tradition in the face of things that are simply better. It’s the culinary equivalent of the UK’s relationship with air conditioning. Presented with the straightforward option of installing a window unit, they instead explain that their homes are “built to keep the heat in,” buy three fans, open every window in the house, and convince themselves that sweating indoors is a cultural virtue rather than a solved engineering problem.&lt;/p&gt;
+
+&lt;p&gt;Anyways, the act of cooking Beef Wellington should be considered a form of food terrorism.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/06-09-2026/beef-wellington.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/06-09-2026/beef-wellington.html</guid>
+      </item>
+    
+      <item>
+        <title>Microblogging in 2026</title>
+        <description>&lt;p&gt;Almost two decades ago, I read an article that really was a foundational work in how I based my role in the internet ecosystem. It’s always stuck with me, and I truly do think about this all the time and it’s something that I always keep in mind when posting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://shii.bibanon.org/shii.org/knows/Microblogging.html&quot;&gt;This article&lt;/a&gt; was written by a certain internet citizen, which was really a response to cultural anthropologist Grant McCracken’s post about microblogging being a form of phatic communication.&lt;/p&gt;
+
+&lt;p&gt;McCracken still maintains his blog, but his original article was wiped off the web; you can still find it &lt;a href=&quot;https://web.archive.org/web/20070823071126/https://cultureby.com/trilogy/2007/07/how-social-netw.html&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;At the time, Facebook was peaking and Twitter had just begun to pop off. Those were some of the main microblogging sites back in the day, and as the monetization machine hadn’t made it truly profitable to gain retweets and shares in the attention economy, posting for the sake of microblogging was still well and alive. Don’t think the Twitter post attention economy is like that anymore, unfortunately.&lt;/p&gt;
+
+&lt;p&gt;Nowadays, Instagram stories has become the dominant form of phatic communication that most normal people here use. Instagram has stopped being a form of Flickr and instead has become Twitter, and Twitter has become some sort of perpetual attention-consensus-building marketing machine, the closest thing to a spiritual Roman forum that any other internet forum could be. There is much more signal than noise than on pre-Elon Twitter, for sure, for the majority of users. Too much signal in fact, making it more of a macroblogging platform than a microblogging platform and driving true microblogging - a bit of signal (a keep-alive!) and a ton of noise - elsewhere.&lt;/p&gt;
+
+&lt;p&gt;A feature on IG Stories is the ephemeral nature of posts, where the context window is what happened in the last 24 hours. I think that really moves it into the realm where a story is a cry for acknowledgment of existence, a true microblogging platform. Personally, I think it’s preferable to use it as such rather than as a marketing machine.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/06-08-2026/microblogging-2026.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/06-08-2026/microblogging-2026.html</guid>
+      </item>
+    
+      <item>
+        <title>Why JP Ticketing Systems Are So Hard</title>
+        <description>&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;No, you don’t actually provide that much value to the Japanese music industry when you go to a concert in Japan. You don’t actually spend that much money. They don’t want you, not because they’re racist or xenophobic, but because to their music industry, you do the equivalent of ordering a $2 taco at a Mexican restaurant and filling up on chips. You simply aren’t built into the current monetization of the JP music market. They don’t make money through ticket sales, they make money through you buying CDs and merch.&lt;/p&gt;
+
+&lt;h2 id=&quot;cd-and-physical-goods-sales&quot;&gt;CD and Physical Goods Sales&lt;/h2&gt;
+
+&lt;p&gt;To understand the music industry in Japan, we must start our story in Sacramento. More specifically, a small record shop in Sacramento called Tower Records. Russell Solomon founded Tower Records in the 1960s, and it eventually grew to become the dominant record and music store in the USA. The Tower in the Tower Theater was named after the nearby Tower Theatre (still the oldest continuously running “Picture Palace”), which was named after the Tower Bridge, a historic Sacramento bridge linking the floodplains of West Sacramento to Old Sacramento and the capitol proper.&lt;/p&gt;
+
+&lt;p&gt;Shibuya is one of those places that you just have to go to in Japan. It’s a Tokyo staple, and if you’re a weeaboo it’s most likely one of the first places that you’ll go to. Down one of the streets of Shibuya, you’ll find a giant multifloor building. That’s the mecca of Japanese music, Tower Records, the flagship store. You’ve done it, you’ve reached your dreams, you’ve come to the largest music shop in the world, 9 whole floors of Japanese music and culture. You see the giant yellow tower on the front of the building. And yes that is the Tower Bridge in Sacramento, California.&lt;/p&gt;
+
+&lt;p&gt;Tower Records was an icon in the music world for decades, but is now dead. It filed for bankruptcy in 2006. Part of the reason for the decline in business was the rise of mass market discounters, but also the advent of the internet and early internet piracy made access to music easier. At this point, DSL had made it fairly instantaneous. Youtube started a year earlier at this point, and with Youtube immediately ripped music from CDs was uploaded online. Limewire was already more or less mainstream if you had internet.&lt;/p&gt;
+
+&lt;p&gt;But there’s another place where Tower Records still lives. And that’s Japan. If you’ve ever gone on JP Twitter, you’ve seen the attitudes that they have towards piracy. Don’t copy that floppy, you dirty thief! To this day, there are still dozens of Tower Records stores in Japan. Travel protip: you don’t really have to go to the Shibuya location by the way, the other locations will still probably have your stuff, but honestly it’s much easier just to ship things from amazon.co.jp to your hotel room.&lt;/p&gt;
+
+&lt;p&gt;But when was the last time you went to a CD or record shop in the west? Sure if you’re a hip and trendy zoomer with a digicam and wired earbuds and a matcha you’ll performatively buy a CD or a record from a mom and pop store, but how much money do you spend as a part of your income or net worth on these goods?&lt;/p&gt;
+
+&lt;p&gt;We in the west, or at least America, consume our day-to-day music through streaming. The Recording Industry Association of America (RIAA) has numbers for this, with the breakdown: the vast majority (85%-90%) of revenue comes from streaming, not physical media. The streaming market mogs the physical media market. No way Tower Records would survive here.&lt;/p&gt;
+
+&lt;p&gt;However, for one reason or another, whether it’s social or cultural or just an older way of doing things that I don’t know enough to go into, physical media is well and alive in Japan. If you’ve been on the internet long enough you would remember the stacks of AKB CD’s in the trash, bought on the hopes of a handshake ticket. You can pull up similar reports from the RIAJ (The RIAA but for Japan) and other sources, but current estimates show that most day-to-day revenue from music consumption is around a 60/40 physical/digital split. Japan is perhaps the world’s largest physical music market. Tower Records is still going strong.&lt;/p&gt;
+
+&lt;h2 id=&quot;scale-vs-depth&quot;&gt;Scale vs Depth&lt;/h2&gt;
+
+&lt;p&gt;The core of the issue is that Japan’s music industry and the western music industry have different incentives. Here’s what I mean.&lt;/p&gt;
+
+&lt;p&gt;At some point, you can grow an entertainment industry in two ways. You can go either broad or you can go deep.&lt;/p&gt;
+
+&lt;p&gt;Western artists rely deeply on streaming revenue from Spotify or Youtube Music or Amazon Music or whatever else people use these days. You have revenue per play, and you have monthly unique listens or downloads. You have Spotify charts. This is important!&lt;/p&gt;
+
+&lt;p&gt;While Japan has been getting into the streaming business recently, it’s still at this point a smaller percentage of revenue than physical music media. They rely heavily on IRL stuff, folks going to Tower Records to buy CDs.&lt;/p&gt;
+
+&lt;p&gt;The incentives are different. You don’t make money in the USA by getting people to buy your CDs, you get money in the USA by hype. You get it through attention of the masses; after all, the more listens the better. You want as many streams and clicks as possible on your Spotify because for every click you get some amount of fee. But in Japan, what do you want? You want people to whale on your CDs. You want them to spend tons of money on your other merch and records. Whether it’s a better model or not is up for debate, but it is what it is. Streaming is important, yes, but get people to buy the CD’s and records.&lt;/p&gt;
+
+&lt;p&gt;Keep that in mind, because it’s important for how concerts are perceived and why Japan’s model is what it is.&lt;/p&gt;
+
+&lt;h2 id=&quot;ticketing-markets&quot;&gt;Ticketing Markets&lt;/h2&gt;
+
+&lt;p&gt;So far, we’ve only talked about revenue from music consumption on a day-to-day basis, or how the money flows from the music enjoyer to the music producer. Concerts are another deal.&lt;/p&gt;
+
+&lt;p&gt;The parties involved in the transactions within the US concert ecosystem are numerous, with each middleman wanting to take their cut. But let’s just talk about the supply and demand aspect of shows in the US. For the purposes of this blogpost let’s refer to them as lives. We all talk about how evil Ticketmaster or Stubhub or AXS or whatever is, but let’s define them as what they are: they’re market makers that attempt to match supply of tickets or seats to demand for those tickets or seats. The main problem with this is that supply is relatively more finite to demand, and as we’ve become more of an interconnected entity regarding similar tastes in music, demand can completely outstrip supply and drive the price up at a rate faster than linearly. AKA Taylor Swift has millions of fans around the US (and world), but she can only have so many concerts as she is only one person. Thus, her supply is significantly more finite than the amount of demand, even within a single city of her Eras tour, driving up nosebleed tickets to many hundreds or thousands of dollars. The average price paid was, I believe, around $700.&lt;/p&gt;
+
+&lt;p&gt;But how much were ticket prices in Japan for Taylor’s Eras tour? Around $140 for SS seats. So why the discrepancy? Logically, it would make sense for it to be at least a little bit more, as Swift is an international superstar. So why is that so?&lt;/p&gt;
+
+&lt;p&gt;The difference is in the markets.&lt;/p&gt;
+
+&lt;p&gt;The US concert market increasingly behaves like a financialized speculative market, where tickets are not just admission to the concert but tradable assets whose prices discover market-clearing demand. Secondary markets create liquidity almost to a fault, where tickets are exchanged willy nilly at free market rates and speculative arbitrage is normalized and even encouraged (well I don’t have a problem with it personally, at least!) You can make big money by buying that ticket, and if you can’t go, sell it later! The ticket itself is a real-time monetized asset that’s dynamically priced by the market maker, like flights booked with Southwest points that you cancel once prices drop. Additional value is captured through fees across day-to-day trades of the asset!&lt;/p&gt;
+
+&lt;p&gt;However, Japan essentially (not totally, but they do it really well) blocks this market mechanism. There is (pretty much) no secondary market for tickets, and there is no auction. Many live shows are done via lottery, where you enter for a chance to win, but if you win, the prices are more or less reasonable. Your seats may even be completely random within a section as well. Either you win, or you don’t, and you accept the results. Sure, there are ways around that, such as applying for multiple tickets, but from a pure social perspective, it can be considered a more equitable method of finding well-deserved butts to seats. After all, the folks who can often pay the most aren’t usually the ones who are the biggest fans of the artist. The main problem is this: if JP suppresses speculative resale and market-clearing ticket prices, how does the industry capture all the additional value that could have been extracted from the ticket as an asset?&lt;/p&gt;
+
+&lt;p&gt;But more importantly, why care who the biggest fans of the artist are? Why aren’t we optimizing here for pure economic profit, Japan? Who really cares who gets to see your show?&lt;/p&gt;
+
+&lt;p&gt;In the west, there are huge amounts of value captured by promoters, Ticketmaster, on these transactions. The artist does, to an extent, care that their fans fill seats with butts, and cannot actually raise the face prices of the tickets without pissing off the fans. But then, how do we ensure proper allocation of resources across the market? Thus, we have the fall guy, the secondary market maker, to take the blame. We all hate Ticketmaster, right? It’s about preserving the image of the artist.&lt;/p&gt;
+
+&lt;p&gt;But, suppose a secondary market cannot exist legally, as in Japan. What would the proper pricing to match butts to seats be? Could Taylor charge $700 a ticket at face value? No! Her JP fans who expect $100 tickets would seek to Twitter and complain! So Taylor leaves money on the table. And so do Love Live or Im@s or Momoclo or Mrs Green Apple or anyone else.&lt;/p&gt;
+
+&lt;p&gt;So is Japan just bad at extracting willingness-to-pay? Where does all that spending power that’s on the table go? Well, it’s captured elsewhere in the fandom.&lt;/p&gt;
+
+&lt;h2 id=&quot;value-capture&quot;&gt;Value Capture&lt;/h2&gt;
+
+&lt;p&gt;We in the west treat the concert itself as a monetizable scarce asset. The show is the company, and the ticket price is its share price. The Spotify or Youtube Music price is fixed, and the product is infinitely reproducible, so it’s not scarce. It doesn’t mean anything to have the CDs anymore. Concerts are where willingness-to-pay gets aggressively extracted and distributed to producers, platforms, scalpers, and middlemen.&lt;/p&gt;
+
+&lt;p&gt;Japan’s incentives for concerts are different. With the majority of revenue still coming from physical goods, there’s less pressure to extract every last dollar of willingness-to-pay from the live itself. Instead, fans can dump that remaining spending power into CDs, merch, fan clubs, acrylics, collectibles, and the rest of the ecosystem. The Japanese concert ecosystem is designed (or organically came to be?) to be a catalyst for consumer spending across the artist’s products, and the value is captured long-term through deepening fandoms and increased spend through physical goods and other associated products instead of the concert itself, and the fandoms and spend eventually reinforce each other. Lives are special little treats for the fans, reaffirmation rituals acting as retention mechanisms for current fans and conversion mechanisms for new ones.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-do-we-blame&quot;&gt;Who do we blame?&lt;/h2&gt;
+
+&lt;p&gt;As to which system captures value more equitably or efficiently, I don’t really know and can’t speak to that. However, it’s important to understand that concerts serve different purposes in the US vs Japan.&lt;/p&gt;
+
+&lt;p&gt;Why doesn’t Japan transition to America’s model? Surely if there’s a third-party market maker like Ticketmaster then people can blame their lack of access due to overwhelming demand on the market maker instead of on the producer, right? The main reason is that it’s kind of just illegal to do it, but the reasoning I think (at least my personal opinion) is that it feels better to leave the ticketing gods to RNG. If you don’t get in, it wasn’t meant to be, and oh well! Next time! The venue can only be a certain size after all, we get it.&lt;/p&gt;
+
+&lt;p&gt;There are other benefits to their model. Instead of scalpers or market makers capturing that remaining willingness-to-pay through resale, their deeply loyal fans can spend it on hundreds of dollars of CDs instead. Penlights, can badges, fan clubs, acrylics, oshikatsu, whatever else - the money (in theory) will go into the ecosystem anyway, and long term good will is generated. In the end, the money is not just left on the table; some or most of it just enters elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Think of the $1.50 Costco hotdog (180 yen in JP). No way they’re earning money on that Costco hotdog. But that’s fine, because you’ll go in and spend money on some dumb stuff that you didn’t need. But more importantly, you’re thankful for Jim Sinegal for an environment where you can get a hotdog for $1.50. Costco shoppers are some of the most loyal shoppers out there, and once you’re a Costco shopper, unless you move out of the area, you’re most likely a Costco shopper for life. It’s the JP fandom way. You’re into Im@s for 20 years, and you dress up your kids in Im@s, and you’re a producer for life!&lt;/p&gt;
+
+&lt;p&gt;However, if we applied the JP ticketing system to western audiences, there’s no similar money sink that fans can dump their extra money into! They aren’t going to buy CD’s - who do you know still has a CD player who isn’t performative or a boomer? Spotify only costs a certain amount a month, so does Youtube or whatever, and the companies themselves and all the other parties take a cut out of that anyway. So the concerts need to capture the willingness-to-pay! Otherwise, it just never gets monetized! Sure, they might be long-term fans, but who cares? There is no Costco for them to shop in so you have to raise the price of that hotdog to $8 to capture their money.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying the Japanese system is better than the west’s. In fact, I think it is often worse. I’d personally much rather have Ticketmaster than chuusen.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-scarcity&quot;&gt;Building Scarcity&lt;/h2&gt;
+
+&lt;p&gt;These are more or less my opinions, but I believe that as concerts nowadays are a form of participating in luxury activities and developing caste in one way or another with regards to your position in the fandom is important to the experience. And what is more luxurious than scarcity? It’s all about scarcity.&lt;/p&gt;
+
+&lt;p&gt;The key is differentiation, JP builds scarcity by products, the west does it by price.&lt;/p&gt;
+
+&lt;p&gt;Posting about something is akin to proving your worth, and in the US, the biggest fans are the ones who go to concerts. In JP the biggest fans are the ones who have the most merch, the ones who perform oshikatsu, the ones who buy all the CDs and are in the fan club, and have the most acrylics and can badges on their itabag. Because in Japan, if you didn’t get concerts, it’s “oh well, what can I do?”&lt;/p&gt;
+
+&lt;h2 id=&quot;why-the-japanese-market-doesnt-care-to-make-it-easier-to-foreigners&quot;&gt;Why the Japanese Market doesn’t care to make it easier to foreigners&lt;/h2&gt;
+
+&lt;p&gt;Simply put, you don’t really spend that much on goods.&lt;/p&gt;
+
+&lt;p&gt;“Well, I buy my idol CD’s every time from Mandarake.” The artist and the music industry do not capture the value from resale markets.&lt;/p&gt;
+
+&lt;p&gt;“Well I contribute towards Japan’s economy through flights, hotel stays, etc.” The artist and the music industry do not care. Sure, it’s great for the taxpayers, but Pony Canyon doesn’t care (well, as much)&lt;/p&gt;
+
+&lt;p&gt;Every spot a foreigner takes up in a domestic JP live is a lost opportunity to retain a loyal domestic fan or convert a new JP fan who will then proceed to generate revenue for the artist for a long time through merch and other purchases. Costco doesn’t want you to access their food court if you’re not a member or you aren’t going to ever be one because you don’t live in a place near a Costco.&lt;/p&gt;
+
+&lt;p&gt;It’s not that they don’t want your money; you’re just not integrated into the monetization loop and if you aren’t, then they aren’t going to cater to you.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-this-good&quot;&gt;Is this good?&lt;/h2&gt;
+
+&lt;p&gt;No, but it’s the way they do things. There are existing networks of scale that US artists and promoters and groups can leverage to capture more value in concerts that I imagine JP artists are able to, so it’s probably extra hard to do business here. I don’t really know too much about the percentages of revenue and kickbacks that Swift gets from her shows but it’s probably more than what Love Live would be able to get at Levi Stadium.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-us-fans-do&quot;&gt;What can US fans do&lt;/h2&gt;
+
+&lt;p&gt;Nothing really, JP might switch to more streaming platforms and less of a physical merch ecosystem but who really knows? But I don’t think complaining at them will do anything because they really don’t have an incentive (well, that they recognize) to make JP stuff available worldwide.&lt;/p&gt;
+
+&lt;p&gt;One of the main issues with merch and physical goods is that they don’t actually have amazing margins, and that it’s well, physical. You have to make it, you have to transfer it, you have to have it in shops or online, or available at events. If you’ve ever done buppan at a live you know it’s an absolute bear. The logistics of doing that at overseas events and capturing enough overseas monetization is not, well, great.&lt;/p&gt;
+
+&lt;p&gt;So there’s not much incentive to make the process easier for you. Some folks do it, like for instance Holo, but as Cover has expanded internationally already, it makes more sense for them. But for more niche stuff, lol.&lt;/p&gt;
+
+&lt;p&gt;I think the best way is probably to just more Spotify listens &amp;amp; Twitter follows lol.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/05-19-2026/jp-ticketing-systems.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/05-19-2026/jp-ticketing-systems.html</guid>
+      </item>
+    
+      <item>
+        <title>The American Garage</title>
+        <description>&lt;p&gt;Singapore’s remarkable success as a nation is often humorously attributed by Lee Kuan Yew to the invention of the air conditioner. While it may start as a joke, there’s truth to it. Singapore has distinguished itself from its Southeast Asian neighbors by presenting itself as a first-world nation, in part thanks to the comfort provided by air conditioning. This ability to offer a conducive work environment attracted investments and opportunities, transforming it from a nation with dirt roads and few resources into a global business powerhouse. Given its limited natural resources, Singapore had to leverage its human capital and strategic location. Without air conditioning, the extreme heat and humidity would have made a productive work environment nearly impossible.&lt;/p&gt;
+
+&lt;p&gt;In the United States, we have our own success story: Silicon Valley. This region is often envied worldwide for its innovation and significant contributions to the American economy. Discussions about replicating its ecosystem of innovation frequently mention factors such as deregulation, access to funding, and even the weather. However, one essential element is often overlooked: the garage.&lt;/p&gt;
+
+&lt;p&gt;Many of us casually reference the fact that companies like HP, Disney, Microsoft, Apple, and Amazon “started in a garage,” but we rarely reflect on what that truly signifies. Would these companies have emerged without garages? I believe not.&lt;/p&gt;
+
+&lt;p&gt;Before Silicon Valley became synonymous with software, it was a hub for hardware development, which is reflected in its name. Building hardware requires a dedicated workspace. While one could use a living room or apartment, the nature of hardware development—often messy and requiring specialized equipment—makes a garage a more suitable option. Indoor soldering generates fumes, lab equipment can damage home furnishings, and external weather conditions can be unpredictable. A garage provides a clean, accessible space for experimentation and innovation without the constraints of a rented warehouse, which can be costly.&lt;/p&gt;
+
+&lt;p&gt;For many, a garage is an underappreciated asset. It serves as an ideal workspace—a mini-warehouse connected to your home, customizable and equipped for a variety of tasks. It can house power tools, CNC machines, and other equipment, acting simultaneously as a manufacturing center and a shipping hub. The convenience of working with friends or neighbors nearby enhances collaboration, while climate control is as simple as opening the garage doors.&lt;/p&gt;
+
+&lt;p&gt;Garages became popular in the 1920s with the rise of automobile ownership and boomed in the post-World War II suburban expansion. The standardization of homes kept prices low, while the growing demand for cars necessitated storage space, leading to the creation of garages. These spaces allowed homeowners to maintain their vehicles and store tools without cluttering their living areas.&lt;/p&gt;
+
+&lt;p&gt;In America, garages have naturally fostered innovation. They offer a sheltered environment where individuals can create and experiment freely, equipped with the tools they need. This contrasts sharply with Singapore’s emphasis on air conditioning, which arose from its hot, resource-scarce environment. While air conditioning supports a thriving office culture, America benefits from its mild climate and ample land, making garages a practical solution for innovators.&lt;/p&gt;
+
+&lt;p&gt;Without garages, our landscape of innovation would look very different. Urban settings often limit opportunities for creation, forcing individuals to work in their living rooms, which can detract from quality of life. This issue is evident in the divide between San Francisco and the broader Bay Area, where tech hubs favor software development over hardware production.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the key to America’s growth lies in its garages. If other countries aspire to emulate our success, they should consider building single-family homes with attached garages as a foundational step.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Sep 2024 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/09-20-2024/the-american-garage.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/09-20-2024/the-american-garage.html</guid>
+      </item>
+    
+      <item>
+        <title>How To Complain About AI Art</title>
+        <description>&lt;p&gt;There are two main criticisms of AI art (that is, not on the effects of AI in art, but rather the art itself) - AI art sucks and can’t draw hands or cannot replicate the technique of a human artist, and also AI art lacks ‘soul’ or ‘emotion’ as Art is something sacred to be created by Humans.&lt;/p&gt;
+
+&lt;p&gt;“AI art sucks. It can’t draw hands. Look at the line around this character and the inconsistent shading. AI will never be able to replicate the delicate detail around the eyes.”&lt;/p&gt;
+
+&lt;p&gt;But the artist community most upset about AI art is not one that will criticize their own on the technical merits of their work. The detachment from technical ability and the value of the artwork is emphasized the most in artist communities which abhor AI generated artwork. Support is given to even the most rookie of artists, and technical merit is downplayed in favor of the content of the artwork, the character of the artist, and the story of the journey itself. In essence, the detractors of AI artwork’s technical merit are themselves, not applying the same criticism to human artwork. This is most likely a byproduct of over-socialization; ‘don’t say anything you wouldn’t want said to you’. Those who throw themselves so deeply into their passion are often the ones who take criticism the worst, and so often produce mediocre work as they take offense to anyone who suggests changes, and with these True Believers at the core of their movement, any movement that does not embrace the value of negative feedback stagnates and creates a safe, but mediocre, space, one devoid of the cycle of failure and improvement.&lt;/p&gt;
+
+&lt;p&gt;“AI has no soul and is emotionless as it is not created by a Human. Look at this generic, bland photo. There’s nothing behind it”&lt;/p&gt;
+
+&lt;p&gt;The predication of emotion and soul existing behind a piece of artwork means that there is some sort of human element that cannot be duplicated by machine. It renders the technical ability of the work only a medium by which to convey some sort of story or emotional feeling, something the proponents of such a criticism feel AI lacks. Humans are to Art as God is to Humans, and as only God can create Humans, only Humans can create Art. A good argument nonetheless for True Believers. But do those who criticize AI art on this basis themselves believe they were created from randomness, from evolution? The disconnect between believing they themselves were a part of Nature’s Evolutionary Learning Algorithm and the ability for themselves play God to Art is something of a mental gymnastics optimization problem.&lt;/p&gt;
+
+&lt;p&gt;Not only are the two most dominant criticisms against AI generated art in contradiction to each other, they’re in contradiction to the criticizer’s own beliefs. No wonder they’re so unhappy.&lt;/p&gt;
+
+&lt;p&gt;So what should you do if you don’t like AI art? How do you avoid being unhappy by creating unrealistic mental models for trying to justify human created artwork? How CAN you launch criticisms against it?&lt;/p&gt;
+
+&lt;p&gt;By simply not.&lt;/p&gt;
+
+&lt;p&gt;Just complain that it’s taking your jobs!&lt;/p&gt;
+
+&lt;p&gt;Coal miners complained about the technical aspects of solar, they complained about the aesthetics and the ecological impact and the economic impact, but none of those did anything to them. In the end the they just became solar installers.&lt;/p&gt;
+
+&lt;p&gt;Technology from an economic perspective exists to expand the Production Possibility Frontier by keeping L (labor) and K (capital) consistent, or rather to reduce L and K while keeping PPF consistent. It’s here to take everyone’s jobs so people can move onto different things. Unless significant demand is induced, L and K will and should shrink while production is kept constant in line with demand, and will result in a lower cost.&lt;/p&gt;
+
+&lt;p&gt;Technology comes for everyone, whether you’re an artist or a truck driver or a coal miner or a horsekeeper or a village shaman. Just complain about it!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jan 2024 12:00:00 +0000</pubDate>
+        <link>https://blog.memes.moe/posts/01-11-2024/how-to-complain-about-ai-art.html</link>
+        <guid isPermaLink="true">https://blog.memes.moe/posts/01-11-2024/how-to-complain-about-ai-art.html</guid>
+      </item>
+    
   </channel>
 </rss>
